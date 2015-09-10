@@ -64,22 +64,26 @@
       span
         font-weight: normal
         display: inline-block
-        color: $blue
+        color: $green
 
 //
 // INTRO SECTION
 //
 #intro
-  $main-fg: $dark
-  $main-bg: $white
-  $alt-fg: $blue
+
+  $main-fg: $white
+  $main-bg: $dark
+  $alt-fg: $green
   +override-colors($main-fg,$main-bg,$alt-fg)
   border-radius: 0
+  background: url('../img/banner.png')
+  background-size: cover
 
   @media #{$small}
     margin-top: $topbar-height
 
   .logo
+    background-color: rgba($dark,0.5)
     .tw-logo
       display: block
       &:hover
@@ -109,6 +113,7 @@
       +animate(flipInX, 1s, .5s)
 
   .countdown
+    background-color: rgba($dark,0.5)
     h4
       color: $alt-fg
 
@@ -192,7 +197,7 @@
 //
 #agenda
   $main-fg: $dark
-  $main-bg: $blue
+  $main-bg: $green
   $alt-fg: $white
   +override-colors($main-fg,$main-bg,$alt-fg)
 
@@ -272,7 +277,7 @@
       display: block
       padding-bottom: .5em
     a
-      color: $blue
+      color: $green
 
   @media #{$small}
     .address p
@@ -286,7 +291,7 @@
 #about
   $main-fg: $white
   $main-bg: $dark
-  $alt-fg: $blue
+  $alt-fg: $green
   +override-colors($main-fg,$main-bg,$alt-fg)
   background-image: url(../img/dark-bg.jpg)
 
@@ -347,7 +352,7 @@
 #archive
   $main-fg: $dark
   $main-bg: $white
-  $alt-fg: $blue
+  $alt-fg: $green
   +override-colors($main-fg,$main-bg,$alt-fg)
 
   .grid
@@ -405,7 +410,7 @@
 #footer
   $main-fg: darken($topbar-bg-color, 30%)
   $main-bg: $topbar-bg-color
-  $alt-fg: lighten($blue, 15%)
+  $alt-fg: lighten($green, 15%)
   +override-colors($main-fg,$main-bg,$alt-fg)
 
   border-radius: 0

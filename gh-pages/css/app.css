@@ -1812,9 +1812,9 @@ th.hide-for-touch {
       .top-bar-section ul li > a.button:hover {
         background: #090909; }
     .top-bar-section ul li > a.button.secondary {
-      background: #00aeef; }
+      background: #66cc99; }
       .top-bar-section ul li > a.button.secondary:hover {
-        background: #0089bc; }
+        background: #40bf80; }
     .top-bar-section ul li > a.button.success {
       background: #5da423; }
       .top-bar-section ul li > a.button.success:hover {
@@ -1824,7 +1824,7 @@ th.hide-for-touch {
       .top-bar-section ul li > a.button.alert:hover {
         background: #970b0e; }
   .top-bar-section ul li:hover > a {
-    background: #00aeef;
+    background: #66cc99;
     color: white; }
   .top-bar-section ul li.active > a {
     background: #ebebeb;
@@ -1931,14 +1931,14 @@ th.hide-for-touch {
         .top-bar-section ul li .js-generated {
           display: none; }
     .top-bar-section li.hover > a:not(.button) {
-      background: #00aeef;
+      background: #66cc99;
       color: white; }
     .top-bar-section li a:not(.button) {
       padding: 0 15px;
       line-height: 45px;
       background: #f2f2f2; }
       .top-bar-section li a:not(.button):hover {
-        background: #00aeef; }
+        background: #66cc99; }
     .top-bar-section .has-dropdown > a {
       padding-right: 35px !important; }
       .top-bar-section .has-dropdown > a:after {
@@ -1999,7 +1999,7 @@ th.hide-for-touch {
         right: 100%; }
 
   .no-js .top-bar-section ul li:hover > a {
-    background: #00aeef;
+    background: #66cc99;
     color: white; }
   .no-js .top-bar-section ul li:active > a {
     background: #ebebeb;
@@ -2031,11 +2031,11 @@ button, .button {
   button:hover, button:focus, .button:hover, .button:focus {
     color: white; }
   button.secondary, .button.secondary {
-    background-color: #00aeef;
-    border-color: #0089bc;
+    background-color: #66cc99;
+    border-color: #40bf80;
     color: white; }
     button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
-      background-color: #0089bc; }
+      background-color: #40bf80; }
     button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
       color: white; }
   button.success, .button.success {
@@ -2097,19 +2097,19 @@ button, .button {
     button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
       background-color: #222222; }
     button.disabled.secondary, button[disabled].secondary, .button.disabled.secondary, .button[disabled].secondary {
-      background-color: #00aeef;
-      border-color: #0089bc;
+      background-color: #66cc99;
+      border-color: #40bf80;
       color: white;
       cursor: default;
       opacity: 0.6;
       -webkit-box-shadow: none;
       box-shadow: none; }
       button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
-        background-color: #0089bc; }
+        background-color: #40bf80; }
       button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
         color: white; }
       button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
-        background-color: #00aeef; }
+        background-color: #66cc99; }
     button.disabled.success, button[disabled].success, .button.disabled.success, .button[disabled].success {
       background-color: #5da423;
       border-color: #457a1a;
@@ -3636,132 +3636,138 @@ button, .button {
       #header .fixed .name h1 a span {
         font-weight: normal;
         display: inline-block;
-        color: #00aeef; }
+        color: #66cc99; }
 
 #intro {
-  color: #222222;
-  background: white url(../img/white-bg.png);
-  border-radius: 0; }
+  color: white;
+  background: #222222 url(../img/white-bg.png);
+  border-radius: 0;
+  background: url("../img/banner.png");
+  background-size: cover; }
   #intro h1, #intro h2, #intro h3, #intro #archive .grid a .day, #archive .grid a #intro .day, #intro h4, #intro h5, #intro h6, #intro #archive .grid a .month, #archive .grid a #intro .month, #intro .subheader, #intro p, #intro blockquote, #intro small, #intro #archive .grid a .year, #archive .grid a #intro .year {
-    color: #222222; }
+    color: white; }
   #intro a {
-    color: #00aeef; }
+    color: #66cc99; }
     #intro a:hover, #intro a:active {
-      color: #4cc6f3; }
+      color: #519875; }
   #intro code, #intro abbr, #intro acronym {
-    color: black; }
+    color: #d9d9d9; }
   @media only screen and (min-width: 768px) {
     #intro {
       margin-top: 45px; } }
-  #intro .logo .tw-logo {
-    display: block; }
-    #intro .logo .tw-logo:hover {
-      -webkit-animation: bounce 1s 0s ease both;
-      -moz-animation: bounce 1s 0s ease both;
-      -ms-animation: bounce 1s 0s ease both;
-      -o-animation: bounce 1s 0s ease both;
-      animation: bounce 1s 0s ease both; }
-    #intro .logo .tw-logo img {
-      display: inline-block;
-      margin: 0 auto;
-      height: 2em;
-      -webkit-animation: bounceInLeft 1s 0s ease both;
-      -moz-animation: bounceInLeft 1s 0s ease both;
-      -ms-animation: bounceInLeft 1s 0s ease both;
-      -o-animation: bounceInLeft 1s 0s ease both;
-      animation: bounceInLeft 1s 0s ease both; }
-  #intro .logo h1 {
-    -webkit-animation: bounceInRight 1s 0s ease both;
-    -moz-animation: bounceInRight 1s 0s ease both;
-    -ms-animation: bounceInRight 1s 0s ease both;
-    -o-animation: bounceInRight 1s 0s ease both;
-    animation: bounceInRight 1s 0s ease both; }
-  #intro .logo h6, #intro .logo #archive .grid a .month, #archive .grid a #intro .logo .month {
-    -webkit-animation: flipInX 1s 0.5s ease both;
-    -moz-animation: flipInX 1s 0.5s ease both;
-    -ms-animation: flipInX 1s 0.5s ease both;
-    -o-animation: flipInX 1s 0.5s ease both;
-    animation: flipInX 1s 0.5s ease both; }
-  #intro .logo .subheader {
-    color: #00aeef;
-    margin: 1em 0 0 0;
-    -webkit-animation: flipInX 1s 0.5s ease both;
-    -moz-animation: flipInX 1s 0.5s ease both;
-    -ms-animation: flipInX 1s 0.5s ease both;
-    -o-animation: flipInX 1s 0.5s ease both;
-    animation: flipInX 1s 0.5s ease both; }
-  #intro .logo .subnote {
-    line-height: 1.5;
-    display: block;
-    font-size: 0.6em;
-    -webkit-animation: flipInX 1s 0.5s ease both;
-    -moz-animation: flipInX 1s 0.5s ease both;
-    -ms-animation: flipInX 1s 0.5s ease both;
-    -o-animation: flipInX 1s 0.5s ease both;
-    animation: flipInX 1s 0.5s ease both; }
-  #intro .countdown h4 {
-    color: #00aeef; }
-  #intro .countdown .date p {
-    -webkit-animation: fadeInDown 1s 1s ease both;
-    -moz-animation: fadeInDown 1s 1s ease both;
-    -ms-animation: fadeInDown 1s 1s ease both;
-    -o-animation: fadeInDown 1s 1s ease both;
-    animation: fadeInDown 1s 1s ease both; }
-  #intro .countdown .date h4 {
-    -webkit-animation: fadeInUp 1s 1s ease both;
-    -moz-animation: fadeInUp 1s 1s ease both;
-    -ms-animation: fadeInUp 1s 1s ease both;
-    -o-animation: fadeInUp 1s 1s ease both;
-    animation: fadeInUp 1s 1s ease both;
-    border-top: 1px dashed #222222; }
-  #intro .countdown .counter p {
-    -webkit-animation: fadeInUp 1s 1s ease both;
-    -moz-animation: fadeInUp 1s 1s ease both;
-    -ms-animation: fadeInUp 1s 1s ease both;
-    -o-animation: fadeInUp 1s 1s ease both;
-    animation: fadeInUp 1s 1s ease both; }
-  #intro .countdown .counter h4 {
-    -webkit-animation: fadeInDown 1s 1s ease both;
-    -moz-animation: fadeInDown 1s 1s ease both;
-    -ms-animation: fadeInDown 1s 1s ease both;
-    -o-animation: fadeInDown 1s 1s ease both;
-    animation: fadeInDown 1s 1s ease both;
-    border-bottom: 1px dashed #222222; }
-    #intro .countdown .counter h4#seconds {
-      overflow: hidden;
-      position: relative; }
-      #intro .countdown .counter h4#seconds span {
-        display: block;
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        -webkit-transition: top 300ms ease-out;
-        -moz-transition: top 300ms ease-out;
-        transition: top 300ms ease-out; }
-      #intro .countdown .counter h4#seconds.tick #tick {
-        visibility: visible;
-        top: 0; }
-      #intro .countdown .counter h4#seconds.tick #tock {
-        top: -100%; }
-      #intro .countdown .counter h4#seconds.tick #tack {
-        visibility: hidden;
-        top: 100%; }
-      #intro .countdown .counter h4#seconds.tock #tock {
-        visibility: visible;
-        top: 0; }
-      #intro .countdown .counter h4#seconds.tock #tack {
-        top: -100%; }
-      #intro .countdown .counter h4#seconds.tock #tick {
-        visibility: hidden;
-        top: 100%; }
-      #intro .countdown .counter h4#seconds.tack #tack {
-        visibility: visible;
-        top: 0; }
-      #intro .countdown .counter h4#seconds.tack #tick {
-        top: -100%; }
-      #intro .countdown .counter h4#seconds.tack #tock {
-        visibility: hidden;
-        top: 100%; }
+  #intro .logo {
+    background-color: rgba(34, 34, 34, 0.5); }
+    #intro .logo .tw-logo {
+      display: block; }
+      #intro .logo .tw-logo:hover {
+        -webkit-animation: bounce 1s 0s ease both;
+        -moz-animation: bounce 1s 0s ease both;
+        -ms-animation: bounce 1s 0s ease both;
+        -o-animation: bounce 1s 0s ease both;
+        animation: bounce 1s 0s ease both; }
+      #intro .logo .tw-logo img {
+        display: inline-block;
+        margin: 0 auto;
+        height: 2em;
+        -webkit-animation: bounceInLeft 1s 0s ease both;
+        -moz-animation: bounceInLeft 1s 0s ease both;
+        -ms-animation: bounceInLeft 1s 0s ease both;
+        -o-animation: bounceInLeft 1s 0s ease both;
+        animation: bounceInLeft 1s 0s ease both; }
+    #intro .logo h1 {
+      -webkit-animation: bounceInRight 1s 0s ease both;
+      -moz-animation: bounceInRight 1s 0s ease both;
+      -ms-animation: bounceInRight 1s 0s ease both;
+      -o-animation: bounceInRight 1s 0s ease both;
+      animation: bounceInRight 1s 0s ease both; }
+    #intro .logo h6, #intro .logo #archive .grid a .month, #archive .grid a #intro .logo .month {
+      -webkit-animation: flipInX 1s 0.5s ease both;
+      -moz-animation: flipInX 1s 0.5s ease both;
+      -ms-animation: flipInX 1s 0.5s ease both;
+      -o-animation: flipInX 1s 0.5s ease both;
+      animation: flipInX 1s 0.5s ease both; }
+    #intro .logo .subheader {
+      color: #66cc99;
+      margin: 1em 0 0 0;
+      -webkit-animation: flipInX 1s 0.5s ease both;
+      -moz-animation: flipInX 1s 0.5s ease both;
+      -ms-animation: flipInX 1s 0.5s ease both;
+      -o-animation: flipInX 1s 0.5s ease both;
+      animation: flipInX 1s 0.5s ease both; }
+    #intro .logo .subnote {
+      line-height: 1.5;
+      display: block;
+      font-size: 0.6em;
+      -webkit-animation: flipInX 1s 0.5s ease both;
+      -moz-animation: flipInX 1s 0.5s ease both;
+      -ms-animation: flipInX 1s 0.5s ease both;
+      -o-animation: flipInX 1s 0.5s ease both;
+      animation: flipInX 1s 0.5s ease both; }
+  #intro .countdown {
+    background-color: rgba(34, 34, 34, 0.5); }
+    #intro .countdown h4 {
+      color: #66cc99; }
+    #intro .countdown .date p {
+      -webkit-animation: fadeInDown 1s 1s ease both;
+      -moz-animation: fadeInDown 1s 1s ease both;
+      -ms-animation: fadeInDown 1s 1s ease both;
+      -o-animation: fadeInDown 1s 1s ease both;
+      animation: fadeInDown 1s 1s ease both; }
+    #intro .countdown .date h4 {
+      -webkit-animation: fadeInUp 1s 1s ease both;
+      -moz-animation: fadeInUp 1s 1s ease both;
+      -ms-animation: fadeInUp 1s 1s ease both;
+      -o-animation: fadeInUp 1s 1s ease both;
+      animation: fadeInUp 1s 1s ease both;
+      border-top: 1px dashed white; }
+    #intro .countdown .counter p {
+      -webkit-animation: fadeInUp 1s 1s ease both;
+      -moz-animation: fadeInUp 1s 1s ease both;
+      -ms-animation: fadeInUp 1s 1s ease both;
+      -o-animation: fadeInUp 1s 1s ease both;
+      animation: fadeInUp 1s 1s ease both; }
+    #intro .countdown .counter h4 {
+      -webkit-animation: fadeInDown 1s 1s ease both;
+      -moz-animation: fadeInDown 1s 1s ease both;
+      -ms-animation: fadeInDown 1s 1s ease both;
+      -o-animation: fadeInDown 1s 1s ease both;
+      animation: fadeInDown 1s 1s ease both;
+      border-bottom: 1px dashed white; }
+      #intro .countdown .counter h4#seconds {
+        overflow: hidden;
+        position: relative; }
+        #intro .countdown .counter h4#seconds span {
+          display: block;
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          -webkit-transition: top 300ms ease-out;
+          -moz-transition: top 300ms ease-out;
+          transition: top 300ms ease-out; }
+        #intro .countdown .counter h4#seconds.tick #tick {
+          visibility: visible;
+          top: 0; }
+        #intro .countdown .counter h4#seconds.tick #tock {
+          top: -100%; }
+        #intro .countdown .counter h4#seconds.tick #tack {
+          visibility: hidden;
+          top: 100%; }
+        #intro .countdown .counter h4#seconds.tock #tock {
+          visibility: visible;
+          top: 0; }
+        #intro .countdown .counter h4#seconds.tock #tack {
+          top: -100%; }
+        #intro .countdown .counter h4#seconds.tock #tick {
+          visibility: hidden;
+          top: 100%; }
+        #intro .countdown .counter h4#seconds.tack #tack {
+          visibility: visible;
+          top: 0; }
+        #intro .countdown .counter h4#seconds.tack #tick {
+          top: -100%; }
+        #intro .countdown .counter h4#seconds.tack #tock {
+          visibility: hidden;
+          top: 100%; }
   #intro .actions {
     padding-top: 1em; }
     #intro .actions .participate {
@@ -3794,38 +3800,38 @@ button, .button {
         -webkit-transition: background-color 300ms ease-out;
         -moz-transition: background-color 300ms ease-out;
         transition: background-color 300ms ease-out;
-        background-color: #00aeef;
-        border-color: #0089bc;
+        background-color: #66cc99;
+        border-color: #40bf80;
         color: white;
         -webkit-border-radius: 3px;
         border-radius: 3px;
-        color: white;
+        color: #222222;
         padding: 0.25em;
         margin-bottom: 0.25em; }
         #intro .actions a h4:hover, #intro .actions a h4:focus {
-          background-color: #0089bc; }
+          background-color: #40bf80; }
         #intro .actions a h4:hover, #intro .actions a h4:focus {
           color: white; }
       @media only screen and (max-width: 768px) {
         #intro .actions a {
           padding: 0.5em; } }
     #intro .actions h6.delimiter, #intro .actions #archive .grid a .delimiter.month, #archive .grid a #intro .actions .delimiter.month {
-      color: #a2a2a2;
+      color: white;
       line-height: 2.5; }
 
 #agenda {
   color: #222222;
-  background: #00aeef url(../img/white-bg.png); }
+  background: #66cc99 url(../img/white-bg.png); }
   #agenda h1, #agenda h2, #agenda h3, #agenda #archive .grid a .day, #archive .grid a #agenda .day, #agenda h4, #agenda h5, #agenda h6, #agenda #archive .grid a .month, #archive .grid a #agenda .month, #agenda .subheader, #agenda p, #agenda blockquote, #agenda small, #agenda #archive .grid a .year, #archive .grid a #agenda .year {
     color: #222222; }
   #agenda a {
     color: white; }
     #agenda a:hover, #agenda a:active {
-      color: #b2e6fa; }
+      color: #d1efe0; }
   #agenda code, #agenda abbr, #agenda acronym {
     color: black; }
   #agenda .timings .row {
-    border-bottom: 1px dashed #89dfff;
+    border-bottom: 1px dashed #d9f2e6;
     margin-bottom: 0;
     padding: 0.5em 0;
     overflow: hidden;
@@ -3886,7 +3892,7 @@ button, .button {
           top: 50%;
           margin-top: -1.5em; } }
     #agenda .timings .row:hover {
-      background-color: #23c3ff; }
+      background-color: #8cd9b3; }
 
 #location {
   color: white;
@@ -3906,7 +3912,7 @@ button, .button {
     display: block;
     padding-bottom: 0.5em; }
   #location .address a {
-    color: #00aeef; }
+    color: #66cc99; }
   @media only screen and (min-width: 768px) {
     #location .address p {
       text-align: right; }
@@ -3920,9 +3926,9 @@ button, .button {
   #about h1, #about h2, #about h3, #about #archive .grid a .day, #archive .grid a #about .day, #about h4, #about h5, #about h6, #about #archive .grid a .month, #archive .grid a #about .month, #about .subheader, #about p, #about blockquote, #about small, #about #archive .grid a .year, #archive .grid a #about .year {
     color: white; }
   #about a {
-    color: #00aeef; }
+    color: #66cc99; }
     #about a:hover, #about a:active {
-      color: #0a84b1; }
+      color: #519875; }
   #about code, #about abbr, #about acronym {
     color: #d9d9d9; }
   #about .social a {
@@ -3955,7 +3961,7 @@ button, .button {
       left: 50%; }
     #about .social a:hover, #about .social a:focus {
       color: white;
-      background-color: #00aeef; }
+      background-color: #66cc99; }
       #about .social a:hover i, #about .social a:focus i {
         -webkit-animation: flip 1s 0s ease both;
         -moz-animation: flip 1s 0s ease both;
@@ -3982,9 +3988,9 @@ button, .button {
   #archive h1, #archive h2, #archive h3, #archive .grid a .day, #archive h4, #archive h5, #archive h6, #archive .grid a .month, #archive .subheader, #archive p, #archive blockquote, #archive small, #archive .grid a .year {
     color: #222222; }
   #archive a {
-    color: #00aeef; }
+    color: #66cc99; }
     #archive a:hover, #archive a:active {
-      color: #4cc6f3; }
+      color: #93dbb7; }
   #archive code, #archive abbr, #archive acronym {
     color: black; }
   #archive .grid {
@@ -4012,7 +4018,7 @@ button, .button {
     -o-transition: background-color 0.3s;
     transition: background-color 0.3s; }
     #archive .grid a:hover, #archive .grid a.active {
-      background-color: #00aeef; }
+      background-color: #66cc99; }
     #archive .grid a .month {
       color: white;
       line-height: 1.5em;
@@ -4043,9 +4049,9 @@ button, .button {
   #footer h1, #footer h2, #footer h3, #footer #archive .grid a .day, #archive .grid a #footer .day, #footer h4, #footer h5, #footer h6, #footer #archive .grid a .month, #archive .grid a #footer .month, #footer .subheader, #footer p, #footer blockquote, #footer small, #footer #archive .grid a .year, #archive .grid a #footer .year {
     color: #a6a6a6; }
   #footer a {
-    color: #3dcaff; }
+    color: #9fdfbf; }
     #footer a:hover, #footer a:active {
-      color: #73d6fb; }
+      color: #b7e4ce; }
   #footer code, #footer abbr, #footer acronym {
     color: gray; }
   #footer .row {
@@ -4053,4 +4059,4 @@ button, .button {
     #footer .row p {
       line-height: 1em; }
       #footer .row p a {
-        color: #3dcaff; }
+        color: #9fdfbf; }
