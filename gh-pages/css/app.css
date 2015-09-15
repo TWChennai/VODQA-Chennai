@@ -3636,7 +3636,7 @@ button, .button {
       #header .fixed .name h1 a span {
         font-weight: normal;
         display: inline-block;
-        color: #66cc99; }
+        color: #197319; }
 
 #intro {
   color: white;
@@ -3771,12 +3771,14 @@ button, .button {
   #intro .actions {
     padding-top: 1em; }
     #intro .actions .participate {
+      background-color: rgba(34, 34, 34, 0.5);
       -webkit-animation: rotateInUpLeft 1s 1.5s ease both;
       -moz-animation: rotateInUpLeft 1s 1.5s ease both;
       -ms-animation: rotateInUpLeft 1s 1.5s ease both;
       -o-animation: rotateInUpLeft 1s 1.5s ease both;
       animation: rotateInUpLeft 1s 1.5s ease both; }
     #intro .actions .talk {
+      background-color: rgba(34, 34, 34, 0.5);
       -webkit-animation: rotateInUpRight 1s 1.5s ease both;
       -moz-animation: rotateInUpRight 1s 1.5s ease both;
       -ms-animation: rotateInUpRight 1s 1.5s ease both;
@@ -4049,9 +4051,9 @@ button, .button {
   #footer h1, #footer h2, #footer h3, #footer #archive .grid a .day, #archive .grid a #footer .day, #footer h4, #footer h5, #footer h6, #footer #archive .grid a .month, #archive .grid a #footer .month, #footer .subheader, #footer p, #footer blockquote, #footer small, #footer #archive .grid a .year, #archive .grid a #footer .year {
     color: #a6a6a6; }
   #footer a {
-    color: #9fdfbf; }
+    color: #339966; }
     #footer a:hover, #footer a:active {
-      color: #b7e4ce; }
+      color: #6cb390; }
   #footer code, #footer abbr, #footer acronym {
     color: gray; }
   #footer .row {
@@ -4059,4 +4061,4 @@ button, .button {
     #footer .row p {
       line-height: 1em; }
       #footer .row p a {
-        color: #9fdfbf; }
+        color: #339966; }

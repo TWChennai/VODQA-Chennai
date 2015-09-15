@@ -11469,7 +11469,7 @@ agenda:
 # Nothing else needed down here
 ;T;	@¡;
 @¡;{;@¡;	@¡;
-@¡I"/404.html/;T{;{ ;{ I"'/apple-touch-icon-precomposed.png/;T{;{ ;{ I"/crossdomain.xml/;T{;{ ;{ I"/css/_animate.scss/;T{;{ ;{ I"/css/_normalize.scss/;T{;{ ;{ I"/css/_variables.scss/;T{;{ ;{ I"/css/app.sass/;T{;{;I"üƒ/*! normalize.css v2.1.2 | MIT License | git.io/normalize */
+@¡I"/404.html/;T{;{ ;{ I"'/apple-touch-icon-precomposed.png/;T{;{ ;{ I"/crossdomain.xml/;T{;{ ;{ I"/css/_animate.scss/;T{;{ ;{ I"/css/_normalize.scss/;T{;{ ;{ I"/css/_variables.scss/;T{;{ ;{ I"/css/app.sass/;T{;{;I"Z„/*! normalize.css v2.1.2 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
    ========================================================================== */
@@ -15107,7 +15107,7 @@ button, .button {
       #header .fixed .name h1 a span {
         font-weight: normal;
         display: inline-block;
-        color: #66cc99; }
+        color: #197319; }
 
 #intro {
   color: white;
@@ -15242,12 +15242,14 @@ button, .button {
   #intro .actions {
     padding-top: 1em; }
     #intro .actions .participate {
+      background-color: rgba(34, 34, 34, 0.5);
       -webkit-animation: rotateInUpLeft 1s 1.5s ease both;
       -moz-animation: rotateInUpLeft 1s 1.5s ease both;
       -ms-animation: rotateInUpLeft 1s 1.5s ease both;
       -o-animation: rotateInUpLeft 1s 1.5s ease both;
       animation: rotateInUpLeft 1s 1.5s ease both; }
     #intro .actions .talk {
+      background-color: rgba(34, 34, 34, 0.5);
       -webkit-animation: rotateInUpRight 1s 1.5s ease both;
       -moz-animation: rotateInUpRight 1s 1.5s ease both;
       -ms-animation: rotateInUpRight 1s 1.5s ease both;
@@ -15520,9 +15522,9 @@ button, .button {
   #footer h1, #footer h2, #footer h3, #footer #archive .grid a .day, #archive .grid a #footer .day, #footer h4, #footer h5, #footer h6, #footer #archive .grid a .month, #archive .grid a #footer .month, #footer .subheader, #footer p, #footer blockquote, #footer small, #footer #archive .grid a .year, #archive .grid a #footer .year {
     color: #a6a6a6; }
   #footer a {
-    color: #9fdfbf; }
+    color: #339966; }
     #footer a:hover, #footer a:active {
-      color: #b7e4ce; }
+      color: #6cb390; }
   #footer code, #footer abbr, #footer acronym {
     color: gray; }
   #footer .row {
@@ -15530,7 +15532,7 @@ button, .button {
     #footer .row p {
       line-height: 1em; }
       #footer .row p a {
-        color: #9fdfbf; }
+        color: #339966; }
 ;T;
 @¾;{ I"%/css/foundation/_variables.scss/;T{;{ ;{ I"2/css/foundation/components/_alert-boxes.scss/;T{;{ ;{ I"1/css/foundation/components/_block-grid.scss/;T{;{ ;{ I"2/css/foundation/components/_breadcrumbs.scss/;T{;{ ;{ I"4/css/foundation/components/_button-groups.scss/;T{;{ ;{ I"./css/foundation/components/_buttons.scss/;T{;{ ;{ I"//css/foundation/components/_clearing.scss/;T{;{ ;{ I"3/css/foundation/components/_custom-forms.scss/;T{;{ ;{ I"7/css/foundation/components/_dropdown-buttons.scss/;T{;{ ;{ I"//css/foundation/components/_dropdown.scss/;T{;{ ;{ I"1/css/foundation/components/_flex-video.scss/;T{;{ ;{ I",/css/foundation/components/_forms.scss/;T{;{ ;{ I"-/css/foundation/components/_global.scss/;T{;{ ;{ I"-/css/foundation/components/_grid-5.scss/;T{;{ ;{ I"+/css/foundation/components/_grid.scss/;T{;{ ;{ I"3/css/foundation/components/_inline-lists.scss/;T{;{ ;{ I"./css/foundation/components/_joyride.scss/;T{;{ ;{ I"1/css/foundation/components/_keystrokes.scss/;T{;{ ;{ I"-/css/foundation/components/_labels.scss/;T{;{ ;{ I"//css/foundation/components/_magellan.scss/;T{;{ ;{ I",/css/foundation/components/_orbit.scss/;T{;{ ;{ I"1/css/foundation/components/_pagination.scss/;T{;{ ;{ I"-/css/foundation/components/_panels.scss/;T{;{ ;{ I"5/css/foundation/components/_pricing-tables.scss/;T{;{ ;{ I"4/css/foundation/components/_progress-bars.scss/;T{;{ ;{ I"-/css/foundation/components/_reveal.scss/;T{;{ ;{ I"./css/foundation/components/_section.scss/;T{;{ ;{ I"//css/foundation/components/_side-nav.scss/;T{;{ ;{ I"4/css/foundation/components/_split-buttons.scss/;T{;{ ;{ I"./css/foundation/components/_sub-nav.scss/;T{;{ ;{ I"-/css/foundation/components/_switch.scss/;T{;{ ;{ I"-/css/foundation/components/_tables.scss/;T{;{ ;{ I"-/css/foundation/components/_thumbs.scss/;T{;{ ;{ I"//css/foundation/components/_tooltips.scss/;T{;{ ;{ I"./css/foundation/components/_top-bar.scss/;T{;{ ;{ I"+/css/foundation/components/_type.scss/;T{;{ ;{ I"1/css/foundation/components/_visibility.scss/;T{;{ ;{ I"!/css/icons/fontello-ie7.css/;T{;{ ;{ I"/css/icons/fontello.css/;T{;{ ;{ I"/css/preview.sass/;T{;{;I"H¥/*! normalize.css v2.1.2 | MIT License | git.io/normalize */
 /* ==========================================================================
@@ -17730,7 +17732,7 @@ section {
     height: 100%;
     padding: 1rem; }
 ;T;
-@_;{ I"/favicon.ico/;T{;{ ;{ I"/fonts/fontello.eot/;T{;{ ;{ I"/fonts/fontello.ttf/;T{;{ ;{ I"/fonts/fontello.woff/;T{;{ ;{ I"/humans.txt/;T{;{ ;{ I"/img/dark-bg.jpg/;T{;{ ;{ I"/img/map.png/;T{;{ ;{ I" /img/speaker/aravindhs.jpg/;T{;{ ;{ I"/img/speaker/bharani.jpg/;T{;{ ;{ I"#/img/speaker/james-lewis.jpeg/;T{;{ ;{ I"'/img/speaker/karthik-singaram.jpg/;T{;{ ;{ I"#/img/speaker/michael-chen.jpg/;T{;{ ;{ I"/img/speaker/musthaq.jpg/;T{;{ ;{ I"(/img/speaker/patrick-martinent.png/;T{;{ ;{ I"%/img/speaker/pramod-nanduri.jpg/;T{;{ ;{ I"/img/speaker/rdx.jpg/;T{;{ ;{ I"/img/speaker/selvakn.jpeg/;T{;{ ;{ I"/img/speaker/sriv.jpg/;T{;{ ;{ I"#/img/speaker/tamizhvendan.jpg/;T{;{ ;{ I"/img/speaker/vagmi.jpg/;T{;{ ;{ I"/img/speaker/varadha.jpg/;T{;{ ;{ I""/img/speaker/vinay-raghu.jpg/;T{;{ ;{ I"/img/speaker/vsiva.jpg/;T{;{ ;{ I"/img/speaker/yekkanti.jpg/;T{;{ ;{ I"/img/tw-logo.png/;T{;{ ;{ I"/img/white-bg.png/;T{;{ ;{ I"/js/custom.modernizr.js/;T{;{ ;{ I"/js/skrollr.min.js/;T{;{ ;{ I"/js/ticker.js/;T{;{ ;{ I"/LICENSE.md/;T{;{ ;{ I"/README.md/;T{;{ ;{ I"/robots.txt/;T{;{ ;{ I"/2015-10/;T{;{	;I"<<!DOCTYPE html>
+@_;{ I"/favicon.ico/;T{;{ ;{ I"/fonts/fontello.eot/;T{;{ ;{ I"/fonts/fontello.ttf/;T{;{ ;{ I"/fonts/fontello.woff/;T{;{ ;{ I"/humans.txt/;T{;{ ;{ I"/img/dark-bg.jpg/;T{;{ ;{ I"/img/map.png/;T{;{ ;{ I" /img/speaker/aravindhs.jpg/;T{;{ ;{ I"/img/speaker/bharani.jpg/;T{;{ ;{ I"#/img/speaker/james-lewis.jpeg/;T{;{ ;{ I"'/img/speaker/karthik-singaram.jpg/;T{;{ ;{ I"#/img/speaker/michael-chen.jpg/;T{;{ ;{ I"/img/speaker/musthaq.jpg/;T{;{ ;{ I"(/img/speaker/patrick-martinent.png/;T{;{ ;{ I"%/img/speaker/pramod-nanduri.jpg/;T{;{ ;{ I"/img/speaker/rdx.jpg/;T{;{ ;{ I"/img/speaker/selvakn.jpeg/;T{;{ ;{ I"/img/speaker/sriv.jpg/;T{;{ ;{ I"#/img/speaker/tamizhvendan.jpg/;T{;{ ;{ I"/img/speaker/vagmi.jpg/;T{;{ ;{ I"/img/speaker/varadha.jpg/;T{;{ ;{ I""/img/speaker/vinay-raghu.jpg/;T{;{ ;{ I"/img/speaker/vsiva.jpg/;T{;{ ;{ I"/img/speaker/yekkanti.jpg/;T{;{ ;{ I"/img/tw-logo.png/;T{;{ ;{ I"/img/white-bg.png/;T{;{ ;{ I"/js/custom.modernizr.js/;T{;{ ;{ I"/js/skrollr.min.js/;T{;{ ;{ I"/js/ticker.js/;T{;{ ;{ I"/LICENSE.md/;T{;{ ;{ I"/README.md/;T{;{ ;{ I"/robots.txt/;T{;{ ;{ I"/2015-10/;T{;{	;I"7=<!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -17738,7 +17740,7 @@ section {
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>VODQA Chennai - Oct 2015</title>
+    <title>VodQA Chennai - Oct 2015</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -17769,7 +17771,7 @@ section {
                 </a>
                 <h1>VODQA Chennai</h1>
 
-                <h6>an open forum where testing enthusiasts get together, network and collaborate on the latest developments in the world of software testing</h6>
+                <h6>VodQA is an opportunity for testing enthusiast to get together, network and collaborate on the latest developments in software testing world.</h6>
 
                 
                     <h5 class="subheader">TASTE OF MOBILE</h5>
@@ -17856,9 +17858,9 @@ section {
     <div class="row">
         <div class="large-12 columns" data-anchor-target="#_about">
             <blockquote>
-                <p data--100-bottom-top="transform:perspective(400px) rotateX(90deg) scale(.5);transform-origin:50% 0" data--100-bottom="transform:perspective(400px) rotateX(0deg) scale(1)">'vodQA' - Value Oriented Discussion on Quality Analysis with moto 'Come Learn Something New' offers a unique platform in software testing industry to strengthen the QA community by sharing and learning.</p>
+                <p data--100-bottom-top="transform:perspective(400px) rotateX(90deg) scale(.5);transform-origin:50% 0" data--100-bottom="transform:perspective(400px) rotateX(0deg) scale(1)">VodQA, also called Value Oriented Discussion on Quality Analysis is a forum that sports the moto -  'Come Learn Something New'. The forum offers a unique platform within the software testing industry to strengthen the QA community through knowledge sharing.</p>
 
-                <p data--100-bottom-top="transform:perspective(400px) rotateX(90deg) scale(.5);transform-origin:50% 0" data--100-bottom="transform:perspective(400px) rotateX(0deg) scale(1)"><small>If you have come across any topic that kindled your interest and would like to share with a wider audience or if you worked on a tool that could galvanize the testing community, then this is the right platform for you to present as hands-on workshop, short lightning talk or detailed presentation.</small></p>
+                <p data--100-bottom-top="transform:perspective(400px) rotateX(90deg) scale(.5);transform-origin:50% 0" data--100-bottom="transform:perspective(400px) rotateX(0deg) scale(1)"><small>This edition of VodQa will give you the 'TASTE OF MOBILE'. We will discuss new practices and ideas in the field of mobile testing. If you have come across any story or aspect of mobile testing that caught your interest and you would like to share it with the wider audience or if you have worked on a tool that could galvanize the testing community, then this is the right platform for you. You could present your thoughts as a hands-on workshop, a short lightning talk (\~10 mins) or a detailed presentation (\~30 mins).</small></p>
 
                 <p id="_about" data--100-bottom-top="transform:perspective(400px) rotateX(90deg) scale(.5);transform-origin:50% 0" data--100-bottom="transform:perspective(400px) rotateX(0deg) scale(1)"><small>We love feedback! If you have any suggestions or cribs, feel free to fill out our <a rel="nofollow" href="https://vodqa-chennai.typeform.com/to/XoMN5W" target="_blank">feedback form</a>. Don't worry, its completely anonymous.</small></p>
 
@@ -17933,7 +17935,7 @@ section {
     <div class="fixed">
         <nav class="top-bar">
             <ul class="title-area">
-                <li class="name"><h1><a href="./">VODQA Chennai &raquo; <span>Oct 31</span></a></h1></li>
+                <li class="name"><h1><a href="./">VodQA Chennai &raquo; <span>Oct 31</span></a></h1></li>
                 <li class="toggle-topbar menu-icon"><a href="#"></a></li>
             </ul>
             <section class="top-bar-section">
@@ -17971,7 +17973,7 @@ section {
     <div class="row">
         <div class="large-12 columns">
             <p><small>
-                <a href=".">VODQA Chennai</a> sponsored by
+                <a href=".">VodQA Chennai</a> sponsored by
                 <a rel="nofollow" target="_blank" href="//thoughtworks.com">ThoughtWorks</a><br />
                 Built with
                 <a rel="nofollow" target="_blank" href="//html5boilerplate.com">HTML5 Boilerplate</a>,
@@ -18023,7 +18025,7 @@ I" ;F;@ä;{	;I"Ø<!DOCTYPE html>
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>VODQA Chennai - Preview</title>
+    <title>VodQA Chennai - Preview</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -18037,11 +18039,11 @@ I" ;F;@ä;{	;I"Ø<!DOCTYPE html>
     <![endif]-->
 
     <section id="about" class="feature">
-      <h2 class="header">VODQA Chennai</h2>
+      <h2 class="header">VodQA Chennai</h2>
 
       <div class="content">
         <div class="content-inner">
-          <p>About VODQA Chennai</p>
+          <p>About VodQA Chennai</p>
         </div>
       </div>
     </section>

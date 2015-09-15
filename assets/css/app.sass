@@ -64,7 +64,7 @@
       span
         font-weight: normal
         display: inline-block
-        color: $green
+        color: $darkgreen
 
 //
 // INTRO SECTION
@@ -163,9 +163,11 @@
     padding-top: 1em
 
     .participate
+      background-color: rgba($dark,0.5)
       +animate(rotateInUpLeft, 1s, 1.5s)
 
     .talk
+      background-color: rgba($dark,0.5)
       +animate(rotateInUpRight, 1s, 1.5s)
 
     .participate-or-talk
@@ -410,7 +412,7 @@
 #footer
   $main-fg: darken($topbar-bg-color, 30%)
   $main-bg: $topbar-bg-color
-  $alt-fg: lighten($green, 15%)
+  $alt-fg: darken($green, 20%)
   +override-colors($main-fg,$main-bg,$alt-fg)
 
   border-radius: 0
