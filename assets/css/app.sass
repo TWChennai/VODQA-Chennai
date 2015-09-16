@@ -94,20 +94,29 @@
         height: 2em
         +animate(bounceInLeft, 1s, 0s)
 
-    h1
-      +animate(bounceInRight, 1s, 0s)
+    .vodqa-logo
+      display: block
+      &:hover
+        +animate(bounce, 1s)
+      img
+        display: inline-block
+        margin: 0 auto
+        height: 6em
+        +animate(bounceInRight, 1s, 0s)
+    //h1
+      //+animate(bounceInRight, 1s, 0s)
 
-    h6
-      +animate(flipInX, 1s, .5s)
+    //h6
+      //+animate(flipInX, 1s, .5s)
 
     .subheader
       $subheader-color: darken($alt-fg, 0%)
       color: $subheader-color
-      margin: 1em 0 0 0
+      margin: 0.5em 0 0 0
       +animate(flipInX, 1s, .5s)
 
     .subnote
-      line-height: 1.5
+      line-height: 1
       display: block
       font-size: .6em
       +animate(flipInX, 1s, .5s)
@@ -160,7 +169,7 @@
           +tickerOrder("tack", "tick", "tock")
 
   .actions
-    padding-top: 1em
+    //padding-top: 0.5em
 
     .participate
       background-color: rgba($dark,0.5)
@@ -184,11 +193,11 @@
         +button-style($alt-fg)
         +radius
         color: $main-bg
-        padding: .25em
-        margin-bottom: .25em
+        padding: .20em
+        margin-bottom: .20em
 
       @media only screen and (max-width:#{$small-screen})
-        padding: .5em
+        padding: .25em
 
     h6.delimiter
       color: lighten($main-fg, 50%)

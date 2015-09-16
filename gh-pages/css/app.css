@@ -3674,28 +3674,33 @@ button, .button {
         -ms-animation: bounceInLeft 1s 0s ease both;
         -o-animation: bounceInLeft 1s 0s ease both;
         animation: bounceInLeft 1s 0s ease both; }
-    #intro .logo h1 {
-      -webkit-animation: bounceInRight 1s 0s ease both;
-      -moz-animation: bounceInRight 1s 0s ease both;
-      -ms-animation: bounceInRight 1s 0s ease both;
-      -o-animation: bounceInRight 1s 0s ease both;
-      animation: bounceInRight 1s 0s ease both; }
-    #intro .logo h6, #intro .logo #archive .grid a .month, #archive .grid a #intro .logo .month {
-      -webkit-animation: flipInX 1s 0.5s ease both;
-      -moz-animation: flipInX 1s 0.5s ease both;
-      -ms-animation: flipInX 1s 0.5s ease both;
-      -o-animation: flipInX 1s 0.5s ease both;
-      animation: flipInX 1s 0.5s ease both; }
+    #intro .logo .vodqa-logo {
+      display: block; }
+      #intro .logo .vodqa-logo:hover {
+        -webkit-animation: bounce 1s 0s ease both;
+        -moz-animation: bounce 1s 0s ease both;
+        -ms-animation: bounce 1s 0s ease both;
+        -o-animation: bounce 1s 0s ease both;
+        animation: bounce 1s 0s ease both; }
+      #intro .logo .vodqa-logo img {
+        display: inline-block;
+        margin: 0 auto;
+        height: 6em;
+        -webkit-animation: bounceInRight 1s 0s ease both;
+        -moz-animation: bounceInRight 1s 0s ease both;
+        -ms-animation: bounceInRight 1s 0s ease both;
+        -o-animation: bounceInRight 1s 0s ease both;
+        animation: bounceInRight 1s 0s ease both; }
     #intro .logo .subheader {
       color: #89b780;
-      margin: 1em 0 0 0;
+      margin: 0.5em 0 0 0;
       -webkit-animation: flipInX 1s 0.5s ease both;
       -moz-animation: flipInX 1s 0.5s ease both;
       -ms-animation: flipInX 1s 0.5s ease both;
       -o-animation: flipInX 1s 0.5s ease both;
       animation: flipInX 1s 0.5s ease both; }
     #intro .logo .subnote {
-      line-height: 1.5;
+      line-height: 1;
       display: block;
       font-size: 0.6em;
       -webkit-animation: flipInX 1s 0.5s ease both;
@@ -3768,58 +3773,56 @@ button, .button {
         #intro .countdown .counter h4#seconds.tack #tock {
           visibility: hidden;
           top: 100%; }
-  #intro .actions {
-    padding-top: 1em; }
-    #intro .actions .participate {
-      background-color: rgba(34, 34, 34, 0.5);
-      -webkit-animation: rotateInUpLeft 1s 1.5s ease both;
-      -moz-animation: rotateInUpLeft 1s 1.5s ease both;
-      -ms-animation: rotateInUpLeft 1s 1.5s ease both;
-      -o-animation: rotateInUpLeft 1s 1.5s ease both;
-      animation: rotateInUpLeft 1s 1.5s ease both; }
-    #intro .actions .talk {
-      background-color: rgba(34, 34, 34, 0.5);
-      -webkit-animation: rotateInUpRight 1s 1.5s ease both;
-      -moz-animation: rotateInUpRight 1s 1.5s ease both;
-      -ms-animation: rotateInUpRight 1s 1.5s ease both;
-      -o-animation: rotateInUpRight 1s 1.5s ease both;
-      animation: rotateInUpRight 1s 1.5s ease both; }
-    #intro .actions .participate-or-talk {
-      -webkit-animation: fadeInUp 1s 2s ease both;
-      -moz-animation: fadeInUp 1s 2s ease both;
-      -ms-animation: fadeInUp 1s 2s ease both;
-      -o-animation: fadeInUp 1s 2s ease both;
-      animation: fadeInUp 1s 2s ease both; }
-    #intro .actions a {
-      display: block; }
-      #intro .actions a:hover {
-        -webkit-animation: tada 1s 0s ease both;
-        -moz-animation: tada 1s 0s ease both;
-        -ms-animation: tada 1s 0s ease both;
-        -o-animation: tada 1s 0s ease both;
-        animation: tada 1s 0s ease both; }
-      #intro .actions a h4 {
-        -webkit-transition: background-color 300ms ease-out;
-        -moz-transition: background-color 300ms ease-out;
-        transition: background-color 300ms ease-out;
-        background-color: #89b780;
-        border-color: #6ba55f;
-        color: white;
-        -webkit-border-radius: 3px;
-        border-radius: 3px;
-        color: #222222;
-        padding: 0.25em;
-        margin-bottom: 0.25em; }
-        #intro .actions a h4:hover, #intro .actions a h4:focus {
-          background-color: #6ba55f; }
-        #intro .actions a h4:hover, #intro .actions a h4:focus {
-          color: white; }
-      @media only screen and (max-width: 768px) {
-        #intro .actions a {
-          padding: 0.5em; } }
-    #intro .actions h6.delimiter, #intro .actions #archive .grid a .delimiter.month, #archive .grid a #intro .actions .delimiter.month {
+  #intro .actions .participate {
+    background-color: rgba(34, 34, 34, 0.5);
+    -webkit-animation: rotateInUpLeft 1s 1.5s ease both;
+    -moz-animation: rotateInUpLeft 1s 1.5s ease both;
+    -ms-animation: rotateInUpLeft 1s 1.5s ease both;
+    -o-animation: rotateInUpLeft 1s 1.5s ease both;
+    animation: rotateInUpLeft 1s 1.5s ease both; }
+  #intro .actions .talk {
+    background-color: rgba(34, 34, 34, 0.5);
+    -webkit-animation: rotateInUpRight 1s 1.5s ease both;
+    -moz-animation: rotateInUpRight 1s 1.5s ease both;
+    -ms-animation: rotateInUpRight 1s 1.5s ease both;
+    -o-animation: rotateInUpRight 1s 1.5s ease both;
+    animation: rotateInUpRight 1s 1.5s ease both; }
+  #intro .actions .participate-or-talk {
+    -webkit-animation: fadeInUp 1s 2s ease both;
+    -moz-animation: fadeInUp 1s 2s ease both;
+    -ms-animation: fadeInUp 1s 2s ease both;
+    -o-animation: fadeInUp 1s 2s ease both;
+    animation: fadeInUp 1s 2s ease both; }
+  #intro .actions a {
+    display: block; }
+    #intro .actions a:hover {
+      -webkit-animation: tada 1s 0s ease both;
+      -moz-animation: tada 1s 0s ease both;
+      -ms-animation: tada 1s 0s ease both;
+      -o-animation: tada 1s 0s ease both;
+      animation: tada 1s 0s ease both; }
+    #intro .actions a h4 {
+      -webkit-transition: background-color 300ms ease-out;
+      -moz-transition: background-color 300ms ease-out;
+      transition: background-color 300ms ease-out;
+      background-color: #89b780;
+      border-color: #6ba55f;
       color: white;
-      line-height: 2.5; }
+      -webkit-border-radius: 3px;
+      border-radius: 3px;
+      color: #222222;
+      padding: 0.2em;
+      margin-bottom: 0.2em; }
+      #intro .actions a h4:hover, #intro .actions a h4:focus {
+        background-color: #6ba55f; }
+      #intro .actions a h4:hover, #intro .actions a h4:focus {
+        color: white; }
+    @media only screen and (max-width: 768px) {
+      #intro .actions a {
+        padding: 0.25em; } }
+  #intro .actions h6.delimiter, #intro .actions #archive .grid a .delimiter.month, #archive .grid a #intro .actions .delimiter.month {
+    color: white;
+    line-height: 2.5; }
 
 #agenda {
   color: #222222;

@@ -6,12 +6,15 @@
                    onclick="ga('send', 'event', 'tw', 'tw')" class="tw-logo">
                     <img src="./img/tw-logo.png" alt="ThoughtWorks" align="center" />
                 </a>
-                <img class="small-8" src="./img/Vodqa-white.png" alt="VodQA" align="center" />
 
-                <h6>VodQA is an opportunity for testing enthusiast to get together, network and collaborate on the latest developments in software testing world.</h6>
+                <div class = "vodqa-logo">
+                    <img class="small-8" src="./img/Vodqa-white.png" alt="VodQA" align="center" />
+                </div>
+
+                <h9>VodQA is an opportunity for testing enthusiast to get together, network and collaborate on the latest developments in software testing world.</h9>
 
                 <% if @item[:subheader] %>
-                    <h5 class="subheader"><%= @item[:subheader] %></h5>
+                    <h6 class="subheader"><%= @item[:subheader] %></h6>
                 <% end %>
                 <% if @item[:subnote] %>
                     <div class="subnote"><%= @item[:subnote] %></div>
