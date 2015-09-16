@@ -1812,9 +1812,9 @@ th.hide-for-touch {
       .top-bar-section ul li > a.button:hover {
         background: #090909; }
     .top-bar-section ul li > a.button.secondary {
-      background: #66cc99; }
+      background: #89b780; }
       .top-bar-section ul li > a.button.secondary:hover {
-        background: #40bf80; }
+        background: #6ba55f; }
     .top-bar-section ul li > a.button.success {
       background: #5da423; }
       .top-bar-section ul li > a.button.success:hover {
@@ -1824,7 +1824,7 @@ th.hide-for-touch {
       .top-bar-section ul li > a.button.alert:hover {
         background: #970b0e; }
   .top-bar-section ul li:hover > a {
-    background: #66cc99;
+    background: #89b780;
     color: white; }
   .top-bar-section ul li.active > a {
     background: #ebebeb;
@@ -1931,14 +1931,14 @@ th.hide-for-touch {
         .top-bar-section ul li .js-generated {
           display: none; }
     .top-bar-section li.hover > a:not(.button) {
-      background: #66cc99;
+      background: #89b780;
       color: white; }
     .top-bar-section li a:not(.button) {
       padding: 0 15px;
       line-height: 45px;
       background: #f2f2f2; }
       .top-bar-section li a:not(.button):hover {
-        background: #66cc99; }
+        background: #89b780; }
     .top-bar-section .has-dropdown > a {
       padding-right: 35px !important; }
       .top-bar-section .has-dropdown > a:after {
@@ -1999,7 +1999,7 @@ th.hide-for-touch {
         right: 100%; }
 
   .no-js .top-bar-section ul li:hover > a {
-    background: #66cc99;
+    background: #89b780;
     color: white; }
   .no-js .top-bar-section ul li:active > a {
     background: #ebebeb;
@@ -2031,11 +2031,11 @@ button, .button {
   button:hover, button:focus, .button:hover, .button:focus {
     color: white; }
   button.secondary, .button.secondary {
-    background-color: #66cc99;
-    border-color: #40bf80;
+    background-color: #89b780;
+    border-color: #6ba55f;
     color: white; }
     button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
-      background-color: #40bf80; }
+      background-color: #6ba55f; }
     button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
       color: white; }
   button.success, .button.success {
@@ -2097,19 +2097,19 @@ button, .button {
     button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
       background-color: #222222; }
     button.disabled.secondary, button[disabled].secondary, .button.disabled.secondary, .button[disabled].secondary {
-      background-color: #66cc99;
-      border-color: #40bf80;
+      background-color: #89b780;
+      border-color: #6ba55f;
       color: white;
       cursor: default;
       opacity: 0.6;
       -webkit-box-shadow: none;
       box-shadow: none; }
       button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
-        background-color: #40bf80; }
+        background-color: #6ba55f; }
       button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
         color: white; }
       button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
-        background-color: #66cc99; }
+        background-color: #89b780; }
     button.disabled.success, button[disabled].success, .button.disabled.success, .button[disabled].success {
       background-color: #5da423;
       border-color: #457a1a;
@@ -3636,7 +3636,7 @@ button, .button {
       #header .fixed .name h1 a span {
         font-weight: normal;
         display: inline-block;
-        color: #197319; }
+        color: #89b780; }
 
 #intro {
   color: white;
@@ -3647,9 +3647,9 @@ button, .button {
   #intro h1, #intro h2, #intro h3, #intro #archive .grid a .day, #archive .grid a #intro .day, #intro h4, #intro h5, #intro h6, #intro #archive .grid a .month, #archive .grid a #intro .month, #intro .subheader, #intro p, #intro blockquote, #intro small, #intro #archive .grid a .year, #archive .grid a #intro .year {
     color: white; }
   #intro a {
-    color: #66cc99; }
+    color: #89b780; }
     #intro a:hover, #intro a:active {
-      color: #519875; }
+      color: #6a8a63; }
   #intro code, #intro abbr, #intro acronym {
     color: #d9d9d9; }
   @media only screen and (min-width: 768px) {
@@ -3687,7 +3687,7 @@ button, .button {
       -o-animation: flipInX 1s 0.5s ease both;
       animation: flipInX 1s 0.5s ease both; }
     #intro .logo .subheader {
-      color: #66cc99;
+      color: #89b780;
       margin: 1em 0 0 0;
       -webkit-animation: flipInX 1s 0.5s ease both;
       -moz-animation: flipInX 1s 0.5s ease both;
@@ -3706,7 +3706,7 @@ button, .button {
   #intro .countdown {
     background-color: rgba(34, 34, 34, 0.5); }
     #intro .countdown h4 {
-      color: #66cc99; }
+      color: #89b780; }
     #intro .countdown .date p {
       -webkit-animation: fadeInDown 1s 1s ease both;
       -moz-animation: fadeInDown 1s 1s ease both;
@@ -3802,8 +3802,8 @@ button, .button {
         -webkit-transition: background-color 300ms ease-out;
         -moz-transition: background-color 300ms ease-out;
         transition: background-color 300ms ease-out;
-        background-color: #66cc99;
-        border-color: #40bf80;
+        background-color: #89b780;
+        border-color: #6ba55f;
         color: white;
         -webkit-border-radius: 3px;
         border-radius: 3px;
@@ -3811,7 +3811,7 @@ button, .button {
         padding: 0.25em;
         margin-bottom: 0.25em; }
         #intro .actions a h4:hover, #intro .actions a h4:focus {
-          background-color: #40bf80; }
+          background-color: #6ba55f; }
         #intro .actions a h4:hover, #intro .actions a h4:focus {
           color: white; }
       @media only screen and (max-width: 768px) {
@@ -3823,17 +3823,17 @@ button, .button {
 
 #agenda {
   color: #222222;
-  background: #66cc99 url(../img/white-bg.png); }
+  background: #89b780 url(../img/white-bg.png); }
   #agenda h1, #agenda h2, #agenda h3, #agenda #archive .grid a .day, #archive .grid a #agenda .day, #agenda h4, #agenda h5, #agenda h6, #agenda #archive .grid a .month, #archive .grid a #agenda .month, #agenda .subheader, #agenda p, #agenda blockquote, #agenda small, #agenda #archive .grid a .year, #archive .grid a #agenda .year {
     color: #222222; }
   #agenda a {
     color: white; }
     #agenda a:hover, #agenda a:active {
-      color: #d1efe0; }
+      color: #dbe9d8; }
   #agenda code, #agenda abbr, #agenda acronym {
     color: black; }
   #agenda .timings .row {
-    border-bottom: 1px dashed #d9f2e6;
+    border-bottom: 1px dashed #e4eee2;
     margin-bottom: 0;
     padding: 0.5em 0;
     overflow: hidden;
@@ -3894,7 +3894,7 @@ button, .button {
           top: 50%;
           margin-top: -1.5em; } }
     #agenda .timings .row:hover {
-      background-color: #8cd9b3; }
+      background-color: #a7c9a1; }
 
 #location {
   color: white;
@@ -3914,7 +3914,7 @@ button, .button {
     display: block;
     padding-bottom: 0.5em; }
   #location .address a {
-    color: #66cc99; }
+    color: #89b780; }
   @media only screen and (min-width: 768px) {
     #location .address p {
       text-align: right; }
@@ -3928,9 +3928,9 @@ button, .button {
   #about h1, #about h2, #about h3, #about #archive .grid a .day, #archive .grid a #about .day, #about h4, #about h5, #about h6, #about #archive .grid a .month, #archive .grid a #about .month, #about .subheader, #about p, #about blockquote, #about small, #about #archive .grid a .year, #archive .grid a #about .year {
     color: white; }
   #about a {
-    color: #66cc99; }
+    color: #89b780; }
     #about a:hover, #about a:active {
-      color: #519875; }
+      color: #6a8a63; }
   #about code, #about abbr, #about acronym {
     color: #d9d9d9; }
   #about .social a {
@@ -3963,7 +3963,7 @@ button, .button {
       left: 50%; }
     #about .social a:hover, #about .social a:focus {
       color: white;
-      background-color: #66cc99; }
+      background-color: #89b780; }
       #about .social a:hover i, #about .social a:focus i {
         -webkit-animation: flip 1s 0s ease both;
         -moz-animation: flip 1s 0s ease both;
@@ -3990,9 +3990,9 @@ button, .button {
   #archive h1, #archive h2, #archive h3, #archive .grid a .day, #archive h4, #archive h5, #archive h6, #archive .grid a .month, #archive .subheader, #archive p, #archive blockquote, #archive small, #archive .grid a .year {
     color: #222222; }
   #archive a {
-    color: #66cc99; }
+    color: #89b780; }
     #archive a:hover, #archive a:active {
-      color: #93dbb7; }
+      color: #accca6; }
   #archive code, #archive abbr, #archive acronym {
     color: black; }
   #archive .grid {
@@ -4020,7 +4020,7 @@ button, .button {
     -o-transition: background-color 0.3s;
     transition: background-color 0.3s; }
     #archive .grid a:hover, #archive .grid a.active {
-      background-color: #66cc99; }
+      background-color: #89b780; }
     #archive .grid a .month {
       color: white;
       line-height: 1.5em;
@@ -4051,9 +4051,9 @@ button, .button {
   #footer h1, #footer h2, #footer h3, #footer #archive .grid a .day, #archive .grid a #footer .day, #footer h4, #footer h5, #footer h6, #footer #archive .grid a .month, #archive .grid a #footer .month, #footer .subheader, #footer p, #footer blockquote, #footer small, #footer #archive .grid a .year, #archive .grid a #footer .year {
     color: #a6a6a6; }
   #footer a {
-    color: #339966; }
+    color: #55854c; }
     #footer a:hover, #footer a:active {
-      color: #6cb390; }
+      color: #84a57d; }
   #footer code, #footer abbr, #footer acronym {
     color: gray; }
   #footer .row {
@@ -4061,4 +4061,4 @@ button, .button {
     #footer .row p {
       line-height: 1em; }
       #footer .row p a {
-        color: #339966; }
+        color: #55854c; }
