@@ -3822,7 +3822,7 @@ button, .button {
         padding: 0.25em; } }
   #intro .actions h6.delimiter, #intro .actions #archive .grid a .delimiter.month, #archive .grid a #intro .actions .delimiter.month {
     color: white;
-    line-height: 2.5; }
+    line-height: 2; }
 
 #agenda {
   color: #222222;

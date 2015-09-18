@@ -20,6 +20,11 @@ compile 'css/*.sass' do
   filter :sass, filename: item.raw_filename, load_paths: [ '.', 'assets/css/' ], cache: false
 end
 
+compile '/form/*/' do
+  filter :erb
+  layout 'form'
+end
+
 compile '*' do
   if item.binary?
     # don’t filter binary items
@@ -39,6 +44,10 @@ end
 route 'css/*.sass' do
   # Compile SASS to CSS
   item.identifier.gsub('.sass', '.css').chop
+end
+
+route '/form/*/' do
+   "/#{item.identifier.split('/')[2]}.html"
 end
 
 route '*' do
