@@ -3657,6 +3657,7 @@ button, .button {
     margin: 0 auto; }
     .speaker-register-wrapper form input, .speaker-register-wrapper form textarea, .speaker-register-wrapper form select {
       display: block;
+      width: 300px !important;
       border: none;
       border-bottom: 1px solid #e2e2e2; }
   .speaker-register-wrapper .mktoForm .mktoFieldWrap {
@@ -3665,6 +3666,7 @@ button, .button {
     width: 100% !important; }
   .speaker-register-wrapper .mktoForm .mktoLabel {
     color: #e2e2e2 !important;
+    width: 150px !important;
     font-size: 1.5em !important;
     font-weight: normal !important;
     padding-top: 0 !important; }
@@ -3678,7 +3680,7 @@ button, .button {
     color: white;
     text-align: center;
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
-    background: #c0cc00;
+    background: #00aa5b;
     border: 0;
     cursor: pointer;
     -webkit-box-shadow: inset 0 -2px #6d6b00;
@@ -3688,7 +3690,7 @@ button, .button {
       outline: none;
       -webkit-box-shadow: none;
       box-shadow: none;
-      background: #00aa5b;
+      background: #c0cc00;
       border: none; }
 
 #intro {
