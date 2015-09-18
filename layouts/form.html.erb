@@ -1,8 +1,10 @@
 <% render '_layout', title: @item[:title] do %>
 
-	<section id="form">
-		<center><h1><%= @item[:title] %></h1></center>
-		<%= @item[:form] %>
+	<section id="form" class="feature">
+        <div class="speaker">
+		  <center><h1><%= @item[:title] %></h1></center>
+		  <center><%= @item[:form] %></center>
+        </div>
 	</section>
 
     <script src="js/skrollr.min.js"></script>

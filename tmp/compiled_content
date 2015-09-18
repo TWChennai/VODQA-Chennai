@@ -11469,7 +11469,7 @@ agenda:
 # Nothing else needed down here
 ;T;	@¡;
 @¡;{;@¡;	@¡;
-@¡I"/404.html/;T{;{ ;{ I"'/apple-touch-icon-precomposed.png/;T{;{ ;{ I"/crossdomain.xml/;T{;{ ;{ I"/css/_animate.scss/;T{;{ ;{ I"/css/_normalize.scss/;T{;{ ;{ I"/css/_variables.scss/;T{;{ ;{ I"/css/app.sass/;T{;{;I"&„/*! normalize.css v2.1.2 | MIT License | git.io/normalize */
+@¡I"/404.html/;T{;{ ;{ I"'/apple-touch-icon-precomposed.png/;T{;{ ;{ I"/crossdomain.xml/;T{;{ ;{ I"/css/_animate.scss/;T{;{ ;{ I"/css/_normalize.scss/;T{;{ ;{ I"/css/_variables.scss/;T{;{ ;{ I"/css/app.sass/;T{;{;I"6‡/*! normalize.css v2.1.2 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
    ========================================================================== */
@@ -15109,6 +15109,26 @@ button, .button {
         display: inline-block;
         color: #00aa5b; }
 
+#form {
+  color: white;
+  background: #222222 url(../img/white-bg.png);
+  border-radius: 0;
+  background: url("../img/banner.png");
+  background-size: cover; }
+  #form h1, #form h2, #form h3, #form #archive .grid a .day, #archive .grid a #form .day, #form h4, #form h5, #form h6, #form #archive .grid a .month, #archive .grid a #form .month, #form .subheader, #form p, #form blockquote, #form small, #form #archive .grid a .year, #archive .grid a #form .year {
+    color: white; }
+  #form a {
+    color: #00aa5b; }
+    #form a:hover, #form a:active {
+      color: #0a8149; }
+  #form code, #form abbr, #form acronym {
+    color: #d9d9d9; }
+  #form .speaker {
+    background-color: rgba(34, 34, 34, 0.5);
+    display: block;
+    margin: 0 auto;
+    width: 30em; }
+
 #intro {
   color: white;
   background: #222222 url(../img/white-bg.png);
@@ -15156,6 +15176,7 @@ button, .button {
       #intro .logo .vodqa-logo img {
         display: inline-block;
         margin: 0 auto;
+        width: 16em;
         height: 6em;
         -webkit-animation: bounceInRight 1s 0s ease both;
         -moz-animation: bounceInRight 1s 0s ease both;
@@ -18070,7 +18091,7 @@ I" ;F;@ä;{	;I"Ø<!DOCTYPE html>
   </body>
 </html>
 ;T;	@å;
-I" ;F;@èI"/img/banner.png/;T{;{ ;{ I"/img/tw-logo-black.png/;T{;{ ;{ I"/img/Vodqa-white.png/;T{;{ ;{ I"/form/speaker/;T{;{	;I"Ø<!DOCTYPE html>
+I" ;F;@èI"/img/banner.png/;T{;{ ;{ I"/img/tw-logo-black.png/;T{;{ ;{ I"/img/Vodqa-white.png/;T{;{ ;{ I"/form/speaker/;T{;{	;I"*<!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -18101,9 +18122,11 @@ I" ;F;@èI"/img/banner.png/;T{;{ ;{ I"/img/tw-logo-black.png/;T{;
 
     
 
-	<section id="form">
-		<center><h1>Speakers Registration</h1></center>
-		<script src="//app-e.marketo.com/js/forms2/js/forms2.min.js"></script><form id="mktoForm_3463"></form><script>MktoForms2.loadForm("//app-e.marketo.com", "199-QDE-291", 3463);</script>
+	<section id="form" class="feature">
+        <div class="speaker">
+		  <center><h1>Speakers Registration</h1></center>
+		  <center><script src="//app-e.marketo.com/js/forms2/js/forms2.min.js"></script><form id="mktoForm_3463"></form><script>MktoForms2.loadForm("//app-e.marketo.com", "199-QDE-291", 3463);</script></center>
+        </div>
 	</section>
 
     <script src="js/skrollr.min.js"></script>

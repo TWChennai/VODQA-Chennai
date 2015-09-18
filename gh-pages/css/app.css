@@ -3638,6 +3638,26 @@ button, .button {
         display: inline-block;
         color: #00aa5b; }
 
+#form {
+  color: white;
+  background: #222222 url(../img/white-bg.png);
+  border-radius: 0;
+  background: url("../img/banner.png");
+  background-size: cover; }
+  #form h1, #form h2, #form h3, #form #archive .grid a .day, #archive .grid a #form .day, #form h4, #form h5, #form h6, #form #archive .grid a .month, #archive .grid a #form .month, #form .subheader, #form p, #form blockquote, #form small, #form #archive .grid a .year, #archive .grid a #form .year {
+    color: white; }
+  #form a {
+    color: #00aa5b; }
+    #form a:hover, #form a:active {
+      color: #0a8149; }
+  #form code, #form abbr, #form acronym {
+    color: #d9d9d9; }
+  #form .speaker {
+    background-color: rgba(34, 34, 34, 0.5);
+    display: block;
+    margin: 0 auto;
+    width: 30em; }
+
 #intro {
   color: white;
   background: #222222 url(../img/white-bg.png);
@@ -3685,6 +3705,7 @@ button, .button {
       #intro .logo .vodqa-logo img {
         display: inline-block;
         margin: 0 auto;
+        width: 16em;
         height: 6em;
         -webkit-animation: bounceInRight 1s 0s ease both;
         -moz-animation: bounceInRight 1s 0s ease both;

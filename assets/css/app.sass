@@ -67,8 +67,29 @@
         color: $green
 
 //
+// FORM SECTION FOR SPEAKER REGISTRATION
+//
+
+#form
+
+  $main-fg: $white
+  $main-bg: $dark
+  $alt-fg: $green
+  +override-colors($main-fg,$main-bg,$alt-fg)
+  border-radius: 0
+  background: url('../img/banner.png')
+  background-size: cover
+
+  .speaker
+    background-color: rgba($dark,0.5)
+    display: block
+    margin: 0 auto
+    width: 30em
+
+//
 // INTRO SECTION
 //
+
 #intro
 
   $main-fg: $white
@@ -101,6 +122,7 @@
       img
         display: inline-block
         margin: 0 auto
+        width: 16em
         height: 6em
         +animate(bounceInRight, 1s, 0s)
     //h1
