@@ -1,8 +1,8 @@
-Crashlog created at 2015-09-18 10:57:10 +0530
+Crashlog created at 2015-09-18 17:12:59 +0530
 
 ===== MESSAGE:
 
-RuntimeError: Could not parse YAML for content/form/speaker.html: (<unknown>): found a tab character that violate intendation while scanning a plain scalar at line 3 column 18
+RuntimeError: Could not parse YAML for content/form/speaker.html: (<unknown>): did not find expected key while parsing a block mapping at line 2 column 1
 
 ===== COMPILATION STACK:
 
@@ -111,7 +111,7 @@ JAVA_HOME => "/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home"
 LANG => "en_US.UTF-8"
 LOGNAME => "arvindsv"
 MY_RUBY_HOME => "/Users/arvindsv/.rvm/rubies/ruby-2.0.0-p643"
-OLDPWD => "/Users/arvindsv"
+OLDPWD => "/Users/arvindsv/Documents/workspace/vodqa-app"
 PATH => "/Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/bin:/Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@global/bin:/Users/arvindsv/.rvm/rubies/ruby-2.0.0-p643/bin:/Users/arvindsv/.rvm/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/apache-ant-1.8.4/bin:/usr/local/share/npm/bin"
 PWD => "/Users/arvindsv/Documents/workspace/vodqa-app/VODQA-Chennai"
 RUBYLIB => "/Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/bundler-1.10.6/lib"
@@ -134,10 +134,8 @@ _system_name => "OSX"
 _system_type => "Darwin"
 _system_version => "10.10"
 rvm_bin_path => "/Users/arvindsv/.rvm/bin"
-rvm_delete_flag => "0"
 rvm_path => "/Users/arvindsv/.rvm"
 rvm_prefix => "/Users/arvindsv"
-rvm_ruby_string => "ruby-2.0.0-p643"
 rvm_version => "1.26.11 (latest)"
 
 ===== GEMFILE.LOCK:

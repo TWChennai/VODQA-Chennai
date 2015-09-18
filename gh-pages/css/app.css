@@ -3638,25 +3638,58 @@ button, .button {
         display: inline-block;
         color: #00aa5b; }
 
-#form {
-  color: white;
-  background: #222222 url(../img/white-bg.png);
-  border-radius: 0;
-  background: url("../img/banner.png");
+.speaker-register-wrapper {
+  background: url("../img/banner.png") no-repeat 0 0;
   background-size: cover; }
-  #form h1, #form h2, #form h3, #form #archive .grid a .day, #archive .grid a #form .day, #form h4, #form h5, #form h6, #form #archive .grid a .month, #archive .grid a #form .month, #form .subheader, #form p, #form blockquote, #form small, #form #archive .grid a .year, #archive .grid a #form .year {
-    color: white; }
-  #form a {
-    color: #00aa5b; }
-    #form a:hover, #form a:active {
-      color: #0a8149; }
-  #form code, #form abbr, #form acronym {
-    color: #d9d9d9; }
-  #form .speaker {
-    background-color: rgba(34, 34, 34, 0.5);
-    display: block;
-    margin: 0 auto;
-    width: 30em; }
+  .speaker-register-wrapper .speaker-register-form {
+    background: rgba(0, 0, 0, 0.7); }
+  .speaker-register-wrapper h1 {
+    color: white;
+    margin-bottom: 0;
+    -webkit-animation: fadeInDown 1s 0s ease both;
+    -moz-animation: fadeInDown 1s 0s ease both;
+    -ms-animation: fadeInDown 1s 0s ease both;
+    -o-animation: fadeInDown 1s 0s ease both;
+    animation: fadeInDown 1s 0s ease both; }
+  .speaker-register-wrapper .form-container {
+    padding: 1em 0; }
+  .speaker-register-wrapper form {
+    margin: 0 auto; }
+    .speaker-register-wrapper form input, .speaker-register-wrapper form textarea, .speaker-register-wrapper form select {
+      display: block;
+      border: none;
+      border-bottom: 1px solid #e2e2e2; }
+  .speaker-register-wrapper .mktoForm .mktoFieldWrap {
+    width: 80% !important; }
+  .speaker-register-wrapper .mktoForm .mktoFormCol, .speaker-register-wrapper .mktoForm .mktoFieldWrap {
+    width: 100% !important; }
+  .speaker-register-wrapper .mktoForm .mktoLabel {
+    color: #e2e2e2 !important;
+    font-size: 1.5em !important;
+    font-weight: normal !important;
+    padding-top: 0 !important; }
+  .speaker-register-wrapper .mktoForm .mktoButtonWrap.mktoSimple .mktoButton {
+    position: relative;
+    vertical-align: top;
+    width: 100%;
+    height: 60px;
+    padding: 0;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+    background: #c0cc00;
+    border: 0;
+    cursor: pointer;
+    -webkit-box-shadow: inset 0 -2px #6d6b00;
+    box-shadow: inset 0 -2px #6d6b00; }
+    .speaker-register-wrapper .mktoForm .mktoButtonWrap.mktoSimple .mktoButton:active, .speaker-register-wrapper .mktoForm .mktoButtonWrap.mktoSimple .mktoButton:hover {
+      top: 1px;
+      outline: none;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      background: #00aa5b;
+      border: none; }
 
 #intro {
   color: white;
