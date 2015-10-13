@@ -1,8 +1,8 @@
-Crashlog created at 2015-09-18 17:12:59 +0530
+Crashlog created at 2015-10-13 22:49:57 +0530
 
 ===== MESSAGE:
 
-RuntimeError: Could not parse YAML for content/form/speaker.html: (<unknown>): did not find expected key while parsing a block mapping at line 2 column 1
+RuntimeError: Could not parse YAML for content/2015-10.html: (<unknown>): found character that cannot start any token while scanning for the next token at line 45 column 1
 
 ===== COMPILATION STACK:
 
@@ -101,6 +101,7 @@ Apple_PubSub_Socket_Render => "/private/tmp/com.apple.launchd.6VMztPOkGC/Render"
 BUNDLE_BIN_PATH => "/Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/bundler-1.10.6/bin/bundle"
 BUNDLE_GEMFILE => "/Users/arvindsv/Documents/workspace/vodqa-app/VODQA-Chennai/Gemfile"
 COLORFGBG => "7;0"
+DESTINATION => "/var/folders/nn/r26dsspx683blw4d7l52vl4c0000gp/T/iTerm 2.0.0.20150412 Update"
 GEM_HOME => "/Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight"
 GEM_PATH => "/Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight:/Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@global"
 HOME => "/Users/arvindsv"
