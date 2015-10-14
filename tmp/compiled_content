@@ -17813,7 +17813,7 @@ section {
     height: 100%;
     padding: 1rem; }
 ;T;
-@_;{ I"/favicon.ico/;T{;{ ;{ I"/fonts/fontello.eot/;T{;{ ;{ I"/fonts/fontello.ttf/;T{;{ ;{ I"/fonts/fontello.woff/;T{;{ ;{ I"/humans.txt/;T{;{ ;{ I"/img/dark-bg.jpg/;T{;{ ;{ I"/img/map.png/;T{;{ ;{ I" /img/speaker/aravindhs.jpg/;T{;{ ;{ I"/img/speaker/bharani.jpg/;T{;{ ;{ I"#/img/speaker/james-lewis.jpeg/;T{;{ ;{ I"'/img/speaker/karthik-singaram.jpg/;T{;{ ;{ I"#/img/speaker/michael-chen.jpg/;T{;{ ;{ I"/img/speaker/musthaq.jpg/;T{;{ ;{ I"(/img/speaker/patrick-martinent.png/;T{;{ ;{ I"%/img/speaker/pramod-nanduri.jpg/;T{;{ ;{ I"/img/speaker/rdx.jpg/;T{;{ ;{ I"/img/speaker/selvakn.jpeg/;T{;{ ;{ I"/img/speaker/sriv.jpg/;T{;{ ;{ I"#/img/speaker/tamizhvendan.jpg/;T{;{ ;{ I"/img/speaker/vagmi.jpg/;T{;{ ;{ I"/img/speaker/varadha.jpg/;T{;{ ;{ I""/img/speaker/vinay-raghu.jpg/;T{;{ ;{ I"/img/speaker/vsiva.jpg/;T{;{ ;{ I"/img/speaker/yekkanti.jpg/;T{;{ ;{ I"/img/tw-logo.png/;T{;{ ;{ I"/img/white-bg.png/;T{;{ ;{ I"/js/custom.modernizr.js/;T{;{ ;{ I"/js/skrollr.min.js/;T{;{ ;{ I"/js/ticker.js/;T{;{ ;{ I"/LICENSE.md/;T{;{ ;{ I"/README.md/;T{;{ ;{ I"/robots.txt/;T{;{ ;{ I"/2015-10/;T{;{	;I"d<!DOCTYPE html>
+@_;{ I"/favicon.ico/;T{;{ ;{ I"/fonts/fontello.eot/;T{;{ ;{ I"/fonts/fontello.ttf/;T{;{ ;{ I"/fonts/fontello.woff/;T{;{ ;{ I"/humans.txt/;T{;{ ;{ I"/img/dark-bg.jpg/;T{;{ ;{ I"/img/map.png/;T{;{ ;{ I" /img/speaker/aravindhs.jpg/;T{;{ ;{ I"/img/speaker/bharani.jpg/;T{;{ ;{ I"#/img/speaker/james-lewis.jpeg/;T{;{ ;{ I"'/img/speaker/karthik-singaram.jpg/;T{;{ ;{ I"#/img/speaker/michael-chen.jpg/;T{;{ ;{ I"/img/speaker/musthaq.jpg/;T{;{ ;{ I"(/img/speaker/patrick-martinent.png/;T{;{ ;{ I"%/img/speaker/pramod-nanduri.jpg/;T{;{ ;{ I"/img/speaker/rdx.jpg/;T{;{ ;{ I"/img/speaker/selvakn.jpeg/;T{;{ ;{ I"/img/speaker/sriv.jpg/;T{;{ ;{ I"#/img/speaker/tamizhvendan.jpg/;T{;{ ;{ I"/img/speaker/vagmi.jpg/;T{;{ ;{ I"/img/speaker/varadha.jpg/;T{;{ ;{ I""/img/speaker/vinay-raghu.jpg/;T{;{ ;{ I"/img/speaker/vsiva.jpg/;T{;{ ;{ I"/img/speaker/yekkanti.jpg/;T{;{ ;{ I"/img/tw-logo.png/;T{;{ ;{ I"/img/white-bg.png/;T{;{ ;{ I"/js/custom.modernizr.js/;T{;{ ;{ I"/js/skrollr.min.js/;T{;{ ;{ I"/js/ticker.js/;T{;{ ;{ I"/LICENSE.md/;T{;{ ;{ I"/README.md/;T{;{ ;{ I"/robots.txt/;T{;{ ;{ I"/2015-10/;T{;{	;I"Ãd<!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -18153,6 +18153,8 @@ section {
                  data-bottom="transform:rotateX(90deg) scale(0);opacity:0"
                  data--200-bottom="transform:rotateX(0) scale(1);opacity:1">
                 <p>Workshop - Appium</p>
+                
+                    <p><small>Hardware and Software requirements for the workshop will be mentioned in the acknowledgment mail for your registration</small></p>
                 
                 
                 
