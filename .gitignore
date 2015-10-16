@@ -1,0 +1,35 @@
+# common
+*.bak
+*.orig
+.ruby-gemset
+
+# sublime
+*.sublime-workspace
+
+# vim
+*.s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
+
+# OSX
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# SASS
+.sass-cache
+
+# Nanoc
+/tmp
+/output
+/gh-pages
+*.log
+.bundle
+.rvmrc
+.idea/
