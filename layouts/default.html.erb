@@ -86,10 +86,12 @@
                 <% if item[:talk] %>
                     <a href="<%= @item[:talk] %>" target="_blank" rel="nofollow"
                        onclick="ga('send', 'event', 'talk', 'talk')">
-                        <h4>Present</h4>
+                        <h4>Present
+                            <span>(Next Edition)</span>
+                        </h4>
                     </a>
                     <p>to share exciting new stuff <br />
-                    <small>(accepted for this and subsequent vodqa)</small>
+                    <small>(accepted for subsequent vodqa)</small>
                     </p>
                 <% else %>
                     <a href="javascript:void(0)">
