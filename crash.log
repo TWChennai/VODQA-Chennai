@@ -1,81 +1,66 @@
-Crashlog created at 2015-11-02 14:53:16 +0530
+Crashlog created at 2016-06-01 17:24:49 +0530
 
 ===== MESSAGE:
 
-NoMethodError: undefined method `[]' for nil:NilClass
+RuntimeError: Could not parse YAML for content/form/participate.html: (<unknown>): did not find expected key while parsing a block mapping at line 2 column 1
 
 ===== COMPILATION STACK:
 
-  - [item]   /2015-10/ (rep default)
+  (empty)
 
 ===== STACK TRACE:
 
-  0. layout /_agenda_section/:41:in `block (2 levels) in get_binding'
-  1. layout /_agenda_section/:40:in `each'
-  2. layout /_agenda_section/:40:in `each_with_index'
-  3. layout /_agenda_section/:40:in `block in get_binding'
-  4. layout /_agenda_section/:7:in `each'
-  5. layout /_agenda_section/:7:in `each_with_index'
-  6. layout /_agenda_section/:7:in `get_binding'
-  7. /Users/arvindsv/.rvm/rubies/ruby-2.0.0-p643/lib/ruby/2.0.0/erb.rb:849:in `eval'
-  8. /Users/arvindsv/.rvm/rubies/ruby-2.0.0-p643/lib/ruby/2.0.0/erb.rb:849:in `result'
-  9. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/nanoc-3.6.5/lib/nanoc/filters/erb.rb:34:in `run'
-  10. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/nanoc-3.6.5/lib/nanoc/base/compilation/filter.rb:122:in `setup_and_run'
-  11. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/nanoc-3.6.5/lib/nanoc/helpers/rendering.rb:120:in `render'
-  12. layout /archive/:22:in `block in get_binding'
-  13. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/nanoc-3.6.5/lib/nanoc/helpers/capturing.rb:157:in `call'
-  14. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/nanoc-3.6.5/lib/nanoc/helpers/capturing.rb:157:in `capture'
-  15. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/nanoc-3.6.5/lib/nanoc/helpers/rendering.rb:90:in `render'
-  16. layout /archive/:1:in `get_binding'
-  17. /Users/arvindsv/.rvm/rubies/ruby-2.0.0-p643/lib/ruby/2.0.0/erb.rb:849:in `eval'
-  18. /Users/arvindsv/.rvm/rubies/ruby-2.0.0-p643/lib/ruby/2.0.0/erb.rb:849:in `result'
-  19. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/nanoc-3.6.5/lib/nanoc/filters/erb.rb:34:in `run'
-  20. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/nanoc-3.6.5/lib/nanoc/base/compilation/filter.rb:122:in `setup_and_run'
-  21. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/nanoc-3.6.5/lib/nanoc/base/result_data/item_rep.rb:409:in `layout'
-  22. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/nanoc-3.6.5/lib/nanoc/base/compilation/item_rep_proxy.rb:69:in `layout'
-  23. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/nanoc-3.6.5/lib/nanoc/base/compilation/rule_context.rb:68:in `layout'
-  24. ./Rules:33:in `block in load'
-  25. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/nanoc-3.6.5/lib/nanoc/base/compilation/rule.rb:68:in `instance_eval'
-  26. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/nanoc-3.6.5/lib/nanoc/base/compilation/rule.rb:68:in `apply_to'
-  27. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/nanoc-3.6.5/lib/nanoc/base/compilation/compiler.rb:384:in `compile_rep'
-  28. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/nanoc-3.6.5/lib/nanoc/base/compilation/compiler.rb:340:in `block in compile_reps'
-  29. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/nanoc-3.6.5/lib/nanoc/base/compilation/compiler.rb:333:in `loop'
-  30. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/nanoc-3.6.5/lib/nanoc/base/compilation/compiler.rb:333:in `compile_reps'
-  31. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/nanoc-3.6.5/lib/nanoc/base/compilation/compiler.rb:89:in `run'
-  32. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/nanoc-3.6.5/lib/nanoc/base/source_data/site.rb:58:in `compile'
-  33. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/nanoc-3.6.5/lib/nanoc/cli/commands/compile.rb:363:in `block in run'
-  34. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/nanoc-3.6.5/lib/nanoc/cli/commands/compile.rb:404:in `run_listeners_while'
-  35. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/nanoc-3.6.5/lib/nanoc/cli/commands/compile.rb:362:in `run'
-  36. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/nanoc-3.6.5/lib/nanoc/cli/command_runner.rb:14:in `block in call'
-  37. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/nanoc-3.6.5/lib/nanoc/cli/error_handler.rb:70:in `handle_while'
-  38. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/nanoc-3.6.5/lib/nanoc/cli/error_handler.rb:26:in `handle_while'
-  39. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/nanoc-3.6.5/lib/nanoc/cli/command_runner.rb:13:in `call'
-  40. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/cri-2.4.0/lib/cri/command_dsl.rb:185:in `block in runner'
-  41. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/cri-2.4.0/lib/cri/command.rb:296:in `call'
-  42. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/cri-2.4.0/lib/cri/command.rb:296:in `run_this'
-  43. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/cri-2.4.0/lib/cri/command.rb:249:in `run'
-  44. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/nanoc-3.6.5/lib/nanoc/cli/commands/nanoc.rb:39:in `block in define'
-  45. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/cri-2.4.0/lib/cri/command.rb:296:in `call'
-  46. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/cri-2.4.0/lib/cri/command.rb:296:in `run_this'
-  47. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/cri-2.4.0/lib/cri/command.rb:249:in `run'
-  48. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/nanoc-3.6.5/lib/nanoc/cli.rb:52:in `block in run'
-  49. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/nanoc-3.6.5/lib/nanoc/cli/error_handler.rb:70:in `handle_while'
-  50. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/nanoc-3.6.5/lib/nanoc/cli/error_handler.rb:26:in `handle_while'
-  51. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/nanoc-3.6.5/lib/nanoc/cli.rb:50:in `run'
-  52. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/nanoc-3.6.5/bin/nanoc:19:in `<top (required)>'
-  53. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/bin/nanoc:23:in `load'
-  54. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/bin/nanoc:23:in `<main>'
-  55. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/bin/ruby_executable_hooks:15:in `eval'
-  ... 58 more lines omitted. See full crash log for details.
+  0. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/nanoc-3.6.5/lib/nanoc/data_sources/filesystem.rb:266:in `rescue in parse'
+  1. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/nanoc-3.6.5/lib/nanoc/data_sources/filesystem.rb:263:in `parse'
+  2. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/nanoc-3.6.5/lib/nanoc/data_sources/filesystem.rb:89:in `block in load_objects'
+  3. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/nanoc-3.6.5/lib/nanoc/data_sources/filesystem.rb:78:in `each'
+  4. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/nanoc-3.6.5/lib/nanoc/data_sources/filesystem.rb:78:in `map'
+  5. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/nanoc-3.6.5/lib/nanoc/data_sources/filesystem.rb:78:in `load_objects'
+  6. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/nanoc-3.6.5/lib/nanoc/data_sources/filesystem.rb:37:in `items'
+  7. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/nanoc-3.6.5/lib/nanoc/base/source_data/site.rb:325:in `block in load_items'
+  8. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/nanoc-3.6.5/lib/nanoc/base/source_data/site.rb:324:in `each'
+  9. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/nanoc-3.6.5/lib/nanoc/base/source_data/site.rb:324:in `load_items'
+  10. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/nanoc-3.6.5/lib/nanoc/base/source_data/site.rb:243:in `load'
+  11. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/nanoc-3.6.5/lib/nanoc/base/source_data/site.rb:127:in `layouts'
+  12. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/nanoc-3.6.5/lib/nanoc/base/compilation/compiler.rb:187:in `dependency_tracker'
+  13. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/nanoc-3.6.5/lib/nanoc/base/memoization.rb:56:in `block in memoize'
+  14. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/nanoc-3.6.5/lib/nanoc/base/compilation/compiler.rb:457:in `stores'
+  15. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/nanoc-3.6.5/lib/nanoc/base/compilation/compiler.rb:146:in `unload'
+  16. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/nanoc-3.6.5/lib/nanoc/base/source_data/site.rb:274:in `unload'
+  17. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/nanoc-3.6.5/lib/nanoc/base/source_data/site.rb:254:in `rescue in load'
+  18. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/nanoc-3.6.5/lib/nanoc/base/source_data/site.rb:258:in `load'
+  19. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/nanoc-3.6.5/lib/nanoc/cli/command_runner.rb:63:in `load_site'
+  20. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/nanoc-3.6.5/lib/nanoc/cli/commands/compile.rb:358:in `run'
+  21. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/nanoc-3.6.5/lib/nanoc/cli/command_runner.rb:14:in `block in call'
+  22. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/nanoc-3.6.5/lib/nanoc/cli/error_handler.rb:70:in `handle_while'
+  23. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/nanoc-3.6.5/lib/nanoc/cli/error_handler.rb:26:in `handle_while'
+  24. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/nanoc-3.6.5/lib/nanoc/cli/command_runner.rb:13:in `call'
+  25. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/cri-2.4.0/lib/cri/command_dsl.rb:185:in `block in runner'
+  26. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/cri-2.4.0/lib/cri/command.rb:296:in `call'
+  27. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/cri-2.4.0/lib/cri/command.rb:296:in `run_this'
+  28. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/cri-2.4.0/lib/cri/command.rb:249:in `run'
+  29. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/nanoc-3.6.5/lib/nanoc/cli/commands/nanoc.rb:39:in `block in define'
+  30. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/cri-2.4.0/lib/cri/command.rb:296:in `call'
+  31. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/cri-2.4.0/lib/cri/command.rb:296:in `run_this'
+  32. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/cri-2.4.0/lib/cri/command.rb:249:in `run'
+  33. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/nanoc-3.6.5/lib/nanoc/cli.rb:52:in `block in run'
+  34. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/nanoc-3.6.5/lib/nanoc/cli/error_handler.rb:70:in `handle_while'
+  35. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/nanoc-3.6.5/lib/nanoc/cli/error_handler.rb:26:in `handle_while'
+  36. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/nanoc-3.6.5/lib/nanoc/cli.rb:50:in `run'
+  37. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/nanoc-3.6.5/bin/nanoc:19:in `<top (required)>'
+  38. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/bin/nanoc:23:in `load'
+  39. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/bin/nanoc:23:in `<main>'
+  40. /Users/vijayarg/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+  ... 43 more lines omitted. See full crash log for details.
 
 ===== VERSION INFORMATION:
 
 nanoc 3.6.5 © 2007-2013 Denis Defreyne.
-Running ruby 2.0.0 (2015-02-25) on x86_64-darwin14.1.0 with RubyGems 2.4.6.
+Running ruby 2.1.2 (2014-05-08) on x86_64-darwin13.0 with RubyGems 2.2.2.
 
 ===== SYSTEM INFORMATION:
 
-Darwin INARVIND.local 14.1.0 Darwin Kernel Version 14.1.0: Mon Dec 22 23:10:38 PST 2014; root:xnu-2782.10.72~2/RELEASE_X86_64 x86_64
+Darwin INvijayarg.local 14.5.0 Darwin Kernel Version 14.5.0: Wed Jul 29 02:26:53 PDT 2015; root:xnu-2782.40.9~1/RELEASE_X86_64 x86_64
 
 ===== INSTALLED GEMS:
 
@@ -112,47 +97,65 @@ Darwin INARVIND.local 14.1.0 Darwin Kernel Version 14.1.0: Mon Dec 22 23:10:38 P
 
 ===== ENVIRONMENT:
 
-Apple_PubSub_Socket_Render => "/private/tmp/com.apple.launchd.NXF3llJr3F/Render"
-BUNDLE_BIN_PATH => "/Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/bundler-1.10.6/bin/bundle"
-BUNDLE_GEMFILE => "/Users/arvindsv/Documents/workspace/vodqa-app/VODQA-Chennai/Gemfile"
-GEM_HOME => "/Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight"
-GEM_PATH => "/Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight:/Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@global"
-HOME => "/Users/arvindsv"
-IRBRC => "/Users/arvindsv/.rvm/rubies/ruby-2.0.0-p643/.irbrc"
-JAVA_HOME => "/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home"
+Apple_PubSub_Socket_Render => "/private/tmp/com.apple.launchd.GtS7Hi9PZO/Render"
+BUNDLE_BIN_PATH => "/Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/bundler-1.10.6/bin/bundle"
+BUNDLE_GEMFILE => "/Users/vijayarg/projects/VODQA-Chennai/Gemfile"
+GEM_HOME => "/Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0"
+GEM_PATH => "/Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0:/Users/vijayarg/.gem/ruby/2.1.0"
+HOME => "/Users/vijayarg"
+ITERM_PROFILE => "Default"
+ITERM_SESSION_ID => "w0t7p0"
+JAVA_8_HOME => "/Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home"
+JAVA_HOME => "/Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home"
 LANG => "en_US.UTF-8"
-LOGNAME => "arvindsv"
-MY_RUBY_HOME => "/Users/arvindsv/.rvm/rubies/ruby-2.0.0-p643"
-OLDPWD => "/Users/arvindsv"
-PATH => "/Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/bin:/Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@global/bin:/Users/arvindsv/.rvm/rubies/ruby-2.0.0-p643/bin:/Users/arvindsv/.rvm/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/apache-ant-1.8.4/bin:/usr/local/share/npm/bin"
-PWD => "/Users/arvindsv/Documents/workspace/vodqa-app/VODQA-Chennai"
-RUBYLIB => "/Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/bundler-1.10.6/lib"
+LC_CTYPE => "en_US.UTF-8"
+LESS => "-R"
+LOGNAME => "vijayarg"
+LSCOLORS => "Gxfxcxdxbxegedabagacad"
+OLDPWD => "/Users/vijayarg/projects"
+PAGER => "less"
+PATH => "/Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/bin:/Users/vijayarg/.rvm/gems/ruby-2.1.2/bin:/Users/vijayarg/.rvm/gems/ruby-2.1.2@global/bin:/Users/vijayarg/.rvm/rubies/ruby-2.1.2/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/vijayarg/.rvm/bin"
+PWD => "/Users/vijayarg/projects/VODQA-Chennai"
+RUBYLIB => "/Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/bundler-1.10.6/lib"
 RUBYOPT => "-rbundler/setup"
-RUBY_VERSION => "ruby-2.0.0-p643"
-SHELL => "/bin/bash"
+SECURITYSESSIONID => "186a5"
+SHELL => "/bin/zsh"
 SHLVL => "1"
-SSH_AUTH_SOCK => "/private/tmp/com.apple.launchd.6LRzJLJsKg/Listeners"
+SSH_AUTH_SOCK => "/private/tmp/com.apple.launchd.cDb6Zp4ghM/Listeners"
 TERM => "xterm-256color"
-TERM_PROGRAM => "Apple_Terminal"
-TERM_PROGRAM_VERSION => "343.6"
-TERM_SESSION_ID => "0F4703FF-821C-4DCA-B3B1-73F48FF5337D"
-TMPDIR => "/var/folders/nn/r26dsspx683blw4d7l52vl4c0000gp/T/"
-USER => "arvindsv"
+TERM_PROGRAM => "iTerm.app"
+TMPDIR => "/var/folders/70/8h1tvzzn5ssct4xz11g1c1jw0000gn/T/"
+USER => "vijayarg"
 XPC_FLAGS => "0x0"
 XPC_SERVICE_NAME => "0"
-_ => "/Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/bin/nanoc"
-_ORIGINAL_GEM_PATH => "/Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight:/Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@global"
-__CF_USER_TEXT_ENCODING => "0x1F6:0x0:0x0"
+ZSH => "/Users/vijayarg/.oh-my-zsh"
+_ => "/Users/vijayarg/.rvm/rubies/ruby-2.1.2/bin/nanoc"
+__CF_USER_TEXT_ENCODING => "0x1F5:0x0:0x0"
 _system_arch => "x86_64"
 _system_name => "OSX"
 _system_type => "Darwin"
 _system_version => "10.10"
-rvm_bin_path => "/Users/arvindsv/.rvm/bin"
-rvm_delete_flag => "0"
-rvm_path => "/Users/arvindsv/.rvm"
-rvm_prefix => "/Users/arvindsv"
-rvm_ruby_string => "ruby-2.0.0-p643"
-rvm_version => "1.26.11 (latest)"
+rvm_alias_expanded => ""
+rvm_bin_path => "/Users/vijayarg/.rvm/bin"
+rvm_docs_type => ""
+rvm_gemstone_package_file => ""
+rvm_gemstone_url => ""
+rvm_hook => ""
+rvm_niceness => ""
+rvm_nightly_flag => ""
+rvm_path => "/Users/vijayarg/.rvm"
+rvm_prefix => "/Users/vijayarg"
+rvm_proxy => ""
+rvm_quiet_flag => ""
+rvm_ruby_file => ""
+rvm_ruby_make => ""
+rvm_ruby_make_install => ""
+rvm_ruby_mode => ""
+rvm_script_name => ""
+rvm_sdk => ""
+rvm_silent_flag => ""
+rvm_version => "1.25.28 (stable)"
+rvm_wrapper_name => ""
 
 ===== GEMFILE.LOCK:
 
@@ -231,45 +234,45 @@ DEPENDENCIES
 
 ===== LOAD PATHS:
 
-  0. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/nanoc-3.6.5/lib
-  1. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/terminal-notifier-guard-1.5.3/lib
-  2. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/guard-nanoc-1.0.1/lib
-  3. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/nanoc-3.6.5/lib
-  4. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/guard-1.8.3/lib
-  5. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/pry-0.9.12.2/lib
-  6. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/slop-3.4.6/lib
-  7. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/method_source-0.8.2/lib
-  8. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/lumberjack-1.0.4/lib
-  9. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/listen-1.3.1/lib
-  10. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/rb-kqueue-0.2.0/lib
-  11. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/rb-inotify-0.9.2/lib
-  12. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/rb-fsevent-0.9.3/lib
-  13. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/formatador-0.2.4/lib
-  14. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/ffi-1.9.0/lib
-  15. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/ffi-1.9.0/ext/ffi_c
-  16. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/extensions/x86_64-darwin-14/2.0.0-static/ffi-1.9.0
-  17. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/cri-2.4.0/lib
-  18. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/colored-1.2/lib
-  19. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/coderay-1.0.9/lib
-  20. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/bourbon-3.2.3/lib
-  21. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/thor-0.18.1/lib
-  22. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/sass-3.2.12/lib
-  23. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/adsf-1.1.1/lib
-  24. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/rack-1.5.2/lib
-  25. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/activesupport-4.0.0/lib
-  26. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/tzinfo-0.3.38/lib
-  27. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/thread_safe-0.1.3/lib
-  28. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/atomic-1.1.14/lib
-  29. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/extensions/x86_64-darwin-14/2.0.0-static/atomic-1.1.14
-  30. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/multi_json-1.8.1/lib
-  31. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/minitest-4.7.5/lib
-  32. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/i18n-0.6.5/lib
-  33. /Users/arvindsv/.rvm/gems/ruby-2.0.0-p643@geeknight/gems/bundler-1.10.6/lib
-  34. /Users/arvindsv/.rvm/rubies/ruby-2.0.0-p643/lib/ruby/site_ruby/2.0.0
-  35. /Users/arvindsv/.rvm/rubies/ruby-2.0.0-p643/lib/ruby/site_ruby/2.0.0/x86_64-darwin14.1.0
-  36. /Users/arvindsv/.rvm/rubies/ruby-2.0.0-p643/lib/ruby/site_ruby
-  37. /Users/arvindsv/.rvm/rubies/ruby-2.0.0-p643/lib/ruby/vendor_ruby/2.0.0
-  38. /Users/arvindsv/.rvm/rubies/ruby-2.0.0-p643/lib/ruby/vendor_ruby/2.0.0/x86_64-darwin14.1.0
-  39. /Users/arvindsv/.rvm/rubies/ruby-2.0.0-p643/lib/ruby/vendor_ruby
-  40. /Users/arvindsv/.rvm/rubies/ruby-2.0.0-p643/lib/ruby/2.0.0
-  41. /Users/arvindsv/.rvm/rubies/ruby-2.0.0-p643/lib/ruby/2.0.0/x86_64-darwin14.1.0
+  0. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/nanoc-3.6.5/lib
+  1. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/terminal-notifier-guard-1.5.3/lib
+  2. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/guard-nanoc-1.0.1/lib
+  3. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/nanoc-3.6.5/lib
+  4. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/guard-1.8.3/lib
+  5. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/pry-0.9.12.2/lib
+  6. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/slop-3.4.6/lib
+  7. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/method_source-0.8.2/lib
+  8. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/lumberjack-1.0.4/lib
+  9. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/listen-1.3.1/lib
+  10. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/rb-kqueue-0.2.0/lib
+  11. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/rb-inotify-0.9.2/lib
+  12. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/rb-fsevent-0.9.3/lib
+  13. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/formatador-0.2.4/lib
+  14. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/extensions/x86_64-darwin-13/2.1.0-static/ffi-1.9.0
+  15. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/ffi-1.9.0/lib
+  16. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/ffi-1.9.0/ext/ffi_c
+  17. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/cri-2.4.0/lib
+  18. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/colored-1.2/lib
+  19. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/coderay-1.0.9/lib
+  20. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/bourbon-3.2.3/lib
+  21. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/thor-0.18.1/lib
+  22. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.2.12/lib
+  23. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/adsf-1.1.1/lib
+  24. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/rack-1.5.2/lib
+  25. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.0.0/lib
+  26. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/tzinfo-0.3.38/lib
+  27. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/thread_safe-0.1.3/lib
+  28. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/extensions/x86_64-darwin-13/2.1.0-static/atomic-1.1.14
+  29. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/atomic-1.1.14/lib
+  30. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/multi_json-1.8.1/lib
+  31. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/minitest-4.7.5/lib
+  32. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/i18n-0.6.5/lib
+  33. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/bundler-1.10.6/lib
+  34. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/site_ruby/2.1.0
+  35. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/site_ruby/2.1.0/x86_64-darwin13.0
+  36. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/site_ruby
+  37. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/vendor_ruby/2.1.0
+  38. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/vendor_ruby/2.1.0/x86_64-darwin13.0
+  39. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/vendor_ruby
+  40. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0
+  41. /Users/vijayarg/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/x86_64-darwin13.0
