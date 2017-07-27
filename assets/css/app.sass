@@ -375,8 +375,6 @@
 #location
   $main-fg: $white
   $main-bg: $dark
-  +override-colors($main-fg,$main-bg,$main-fg)
-  background-image: url(../img/dark-bg.jpg)
 
   .row
     overflow: hidden
@@ -393,6 +391,30 @@
       text-align: right
     img
       border-radius: 0 .5em .5em 0
+  
+  .live-map
+    height: 400px
+    width: 100%
+    border: 0
+    padding: 0
+
+  .map-address
+    position: absolute
+    top: 0
+    height: 280px
+    width: 380px
+    font-size: 15px
+    line-height: 35px
+    padding: 20px
+    margin: 40px 10px
+    background-color: white
+    box-shadow: 17px 19px 20px 0px #000
+
+.map-address-heading
+  color: $green
+  text-align: center
+
+
 
 //
 // ABOUT SECTION
