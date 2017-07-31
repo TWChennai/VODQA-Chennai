@@ -120,6 +120,8 @@
     
     <%= render '_speaker_section' %>
 
+    <%= render '_faq_section' %>
+
     <%= render '_archive_section' %>
 
     <%= render '_location_section' %>
@@ -129,7 +131,9 @@
     <%= render '_footer_section' %>
 
     <script>window.targetDate = new Date(<%= start_date.to_i %> * 1000)</script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="js/ticker.js"></script>
+    <script src="js/FAQ.js"></script>
 
     <script src="js/skrollr.min.js"></script>
     <script>
