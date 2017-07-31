@@ -543,8 +543,19 @@
   $main-bg: $white
   $alt-fg: $green
   +override-colors($main-fg,$main-bg,$alt-fg)
+  border-radius: 0
+  background: url('../img/flashback.png')
+  background-size: cover
+
+  .edition
+    text-align: center
+    
+  .edition_text
+    color: $main-bg
+    background-color: rgba($dark,0.5)
 
   .grid
+    color: $alt-fg
     list-style-type: none
     margin: 0
     padding: 0
