@@ -1,20 +1,13 @@
-
-
-function faq() {
-    document.getElementById('faq').addEventListener('click', function (event) {
-        var button = event.target;
-        if (button.classList.contains('open')) {
-            var question = button.parentElement;
-            var description = question.parentElement.querySelector('.description');
-
-            question.classList.toggle('active');
-            description.classList.toggle('hide');
-        }
-    });
-
-    //$(".open").click(function () {
-    //    $(this).closest('.faq').toggleClass('active');
-    //});
+var button = document.getElementsByClassName("question");
+var i;
+for(i=0;i<button.length;i++) {
+  button[i].onclick =function(){
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  }
 }
-
-faq();
