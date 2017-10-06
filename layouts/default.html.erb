@@ -53,18 +53,6 @@
         <div class="row actions">
             <div class="large-5 columns participate">
                 <% if item[:participate] %>
-                    <% if start_date.future? %>
-                      <p>
-                        registrations not yet open <br />
-                        <small>(please check out in a few days)</small>
-                      </p>
-                    <% else %>
-                      <p>
-                        registrations closed <br />
-                        <small>(sorry, but check out next geek night)</small>
-                      </p>
-                    <% end %>
-                <% else %>
                     <p>
                     <a href="<%= @item[:participate] %>" target="_blank" rel="nofollow"
                    onclick="ga('send', 'event', 'participate', 'participate')">
@@ -74,9 +62,21 @@
                         to learn exciting new stuff <br />
                         <small>(and to connect with fellow geeks)</small>
                     </p>
+                <% else %>    
                     <a href="javascript:void(0)">
                         <h4><strike>Participate</strike></h4>
                     </a>
+                    <% if start_date.future? %>
+                        <p>
+                        registrations not yet open <br />
+                        <small>(please check out in a few days)</small>
+                        </p>
+                    <% else %>
+                        <p>
+                        registrations closed <br />
+                        <small>(sorry, but check out next geek night)</small>
+                        </p>
+                    <% end %>
                 <% end %>
             </div>
             <div class="large-2 columns participate-or-talk">
