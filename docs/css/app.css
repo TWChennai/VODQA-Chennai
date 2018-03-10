@@ -3897,7 +3897,7 @@ button, .button {
   #agenda code, #agenda abbr, #agenda acronym {
     color: black; }
   #agenda .timings .row {
-    border-bottom: 1px dashed #44ffa8;
+    border-bottom: 1px dashed #efefef;
     margin-bottom: 0;
     padding: 0.5em 0;
     overflow: hidden;
