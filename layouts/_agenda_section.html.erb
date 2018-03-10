@@ -1,6 +1,13 @@
 <section id="agenda" class="feature">
     <div class="row" data-bottom="transform:translateY(-10em)" data--100-bottom="transform:translateY(0em)">
-        <h2>Agenda</h2>
+        <% if @item[:event_title] %>
+            <h2><%= @item[:event_title] %></h2>
+        <% else %>
+            <h2>Agenda</h2>
+        <% end %>
+        <% if @item[:tag_line] %>
+            <h5><%= @item[:tag_line] %></h5>
+        <% end %>
     </div>
 
     <div class="timings">
