@@ -4008,6 +4008,7 @@ button, .button {
 #speakers {
   padding: 0.5em; }
   #speakers .speaker-name {
+    font-size: 0.75em;
     text-align: left;
     font-weight: 400;
     margin-left: 65px; }
@@ -4019,7 +4020,8 @@ button, .button {
     margin-left: 65px; }
   #speakers .speaker-description {
     text-align: left;
-    margin-top: 0.4em; }
+    margin-top: 1em;
+    font-size: 0.5em; }
   #speakers .speaker-image {
     height: 50px;
     width: 50px;
