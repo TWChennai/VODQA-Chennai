@@ -3836,6 +3836,13 @@ button, .button {
     -ms-animation: rotateInUpLeft 1s 1.5s ease both;
     -o-animation: rotateInUpLeft 1s 1.5s ease both;
     animation: rotateInUpLeft 1s 1.5s ease both; }
+  #intro .actions .joinus {
+    background-color: rgba(34, 34, 34, 0.5);
+    -webkit-animation: rotateInUpLeft 1s 1.5s ease both;
+    -moz-animation: rotateInUpLeft 1s 1.5s ease both;
+    -ms-animation: rotateInUpLeft 1s 1.5s ease both;
+    -o-animation: rotateInUpLeft 1s 1.5s ease both;
+    animation: rotateInUpLeft 1s 1.5s ease both; }
   #intro .actions .talk {
     background-color: rgba(34, 34, 34, 0.5);
     -webkit-animation: rotateInUpRight 1s 1.5s ease both;
