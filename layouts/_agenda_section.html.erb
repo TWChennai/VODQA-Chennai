@@ -50,6 +50,14 @@
                     <% end %>
                     </small></p>
                 <% end %>
+                <% if agenda[:youtube] %>
+                  <p><small>YouTube:
+                    <% agenda[:youtube].each_with_index do |resource, i| %>
+                      <a href="<%= resource[:url] %>" rel="nofollow" target="_blank"><%= resource[:title] %></a>
+                      <%= ' &bull; ' if i != agenda[:youtube].length - 1 %>
+                    <% end %>
+                  </small></p>
+                <% end %>
             </div>
           </div>
         <% end %>
