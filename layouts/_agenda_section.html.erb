@@ -12,7 +12,13 @@
 
     <div class="timings">
         <% @item[:agenda] && @item[:agenda].each_with_index do |agenda, i| %>
+        <% if agenda[:title] == "TBD" %>
+          <div class="row" style="background-color: #00dd76">
+        <% end %>
+        <% if agenda[:title] != "TBD" %>
           <div class="row">
+        <% end %>
+
             <div class="large-4 columns time" id="agenda-<%= i %>"
                  data-bottom="transform:rotateX(90deg) scale(0);opacity:0"
                  data--200-bottom="transform:rotateX(0) scale(1);opacity:1">
@@ -25,7 +31,7 @@
                  data--200-bottom="transform:rotateX(0) scale(1);opacity:1">
                 <p><%= agenda[:title] %></p>
                 <% if agenda[:subtitle] %>
-                    <p><small><%= agenda[:subtitle] %></small></p>
+                  <p><small><%= agenda[:subtitle] %></small></p>
                 <% end %>
                 <% if agenda[:image] %>
                     <p><img src="img/speaker/<%= agenda[:image] %>" alt="<%= agenda[:speaker] %>" /></p>
