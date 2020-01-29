@@ -1,6 +1,6 @@
-# Geek Night Chennai
+# VodQA Chennai
 
-an open forum for geeks to connect, discuss &amp; learn latest ideas, technologies and trends in software development
+VodQA is an opportunity for testing enthusiast to get together, network and collaborate on the latest developments in software testing world.
 
 # Development
 
