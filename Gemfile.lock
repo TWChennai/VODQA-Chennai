@@ -68,4 +68,4 @@ DEPENDENCIES
   terminal-notifier-guard (~> 1.5.3)
 
 BUNDLED WITH
-   1.16.1
+   1.17.3
