@@ -12,7 +12,16 @@ From the GitHub page, navigate to `content` folder and create/edit a `yyyy-mm.ht
 
 We're using [nanoc](//nanoc.ws) for static site generation. Jekyll/Octopress are hard-coded for blogging, while Nanoc is much simpler, doesn't take any assumptions and allows to build whatever type of content (not just blogs).
 
-* Make sure you have RVM installed
+* Make sure you have RVM(Ruby enVironment Manager) installed (
+    * If you are doing for very first time, install brew referring to https://brew.sh/ and then 
+        - brew install gpg (To enable some security stuff)
+        -`\curl -sSL https://get.rvm.io | bash -s stable --ruby`
+    If you again get something like - `gpg: Can't check signature: No public key`, execute below command
+        - Execute `gpg --keyserver hkp://pool.sks-keyservers.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB` (Referring from https://rvm.io/rvm/install - As a first step install GPG keys used to verify installation package section)
+        - Install again `\curl -sSL https://get.rvm.io | bash -s stable --ruby`
+        - Give  `rvm list to` to make sure rvm is successfully installed
+
+)
 * Clone this repo
 * Run `bundle install`
 * Run `nanoc` to compile the website
