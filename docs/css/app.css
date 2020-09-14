@@ -3741,7 +3741,6 @@ button, .button {
         display: inline-block;
         margin: 0 auto;
         width: 16em;
-        height: 6em;
         -webkit-animation: bounceInRight 1s 0s ease both;
         -moz-animation: bounceInRight 1s 0s ease both;
         -ms-animation: bounceInRight 1s 0s ease both;
