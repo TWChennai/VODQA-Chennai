@@ -3741,6 +3741,7 @@ button, .button {
         display: inline-block;
         margin: 0 auto;
         width: 16em;
+        height: 6em;
         -webkit-animation: bounceInRight 1s 0s ease both;
         -moz-animation: bounceInRight 1s 0s ease both;
         -ms-animation: bounceInRight 1s 0s ease both;
@@ -3890,28 +3891,17 @@ button, .button {
     color: white;
     line-height: 2; }
 
-#agenda {
-  color: #222222;
-  background: #00aa5b url(../img/white-bg.png);
+#agenda .timings {
   background: #83ba81; }
-  #agenda h1, #agenda h2, #agenda h3, #agenda #archive .grid a .day, #archive .grid a #agenda .day, #agenda h4, #agenda h5, #agenda h6, #agenda #archive .grid a .month, #archive .grid a #agenda .month, #agenda .subheader, #agenda p, #agenda blockquote, #agenda small, #agenda #archive .grid a .year, #archive .grid a #agenda .year {
-    color: #222222; }
-  #agenda a {
-    color: white; }
-    #agenda a:hover, #agenda a:active {
-      color: #b2e5cd; }
-  #agenda code, #agenda abbr, #agenda acronym {
-    color: black; }
   #agenda .timings .row {
-    border-bottom: 1px dashed #efefef;
+    background: white;
+    border: 10px solid #83ba81;
     margin-bottom: 0;
     padding: 0.5em 0;
     overflow: hidden;
     -webkit-transition: background-color 300ms ease-out;
     -moz-transition: background-color 300ms ease-out;
     transition: background-color 300ms ease-out; }
-    #agenda .timings .row:last-child {
-      border-bottom: 0; }
     #agenda .timings .row .time,
     #agenda .timings .row .summary {
       -webkit-transform-origin: 50% 50%;
@@ -3919,19 +3909,22 @@ button, .button {
       -ms-transform-origin: 50% 50%;
       -o-transform-origin: 50% 50%;
       transform-origin: 50% 50%; }
-    #agenda .timings .row .summary {
-      position: relative; }
-      #agenda .timings .row .summary p {
+    #agenda .timings .row div.time {
+      text-align: right; }
+    #agenda .timings .row div.summary {
+      position: relative;
+      text-align: left; }
+      #agenda .timings .row div.summary p {
         margin-bottom: 0; }
-      #agenda .timings .row .summary small, #agenda .timings .row .summary #archive .grid a .year, #archive .grid a #agenda .timings .row .summary .year {
+      #agenda .timings .row div.summary small, #agenda .timings .row div.summary #archive .grid a .year, #archive .grid a #agenda .timings .row div.summary .year {
         line-height: 1rem;
         display: inline-block; }
-      #agenda .timings .row .summary img {
+      #agenda .timings .row div.summary img {
         display: block;
         margin: 0.5em auto;
         max-width: 3em;
         border-radius: 50%; }
-      #agenda .timings .row .summary a {
+      #agenda .timings .row div.summary a {
         white-space: nowrap; }
     @media only screen and (min-width: 768px) {
       #agenda .timings .row p {
@@ -3963,8 +3956,6 @@ button, .button {
           right: 1em;
           top: 50%;
           margin-top: -1.5em; } }
-    #agenda .timings .row:hover {
-      background-color: #00dd76; }
 
 #faq {
   background: #f3f3f3;

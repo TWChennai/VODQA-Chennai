@@ -287,26 +287,28 @@
   $main-fg: $dark
   $main-bg: $green
   $alt-fg: $white
-  +override-colors($main-fg,$main-bg,$alt-fg)
-  background: #83ba81
 
   .timings
+    background: #83ba81
+
     .row
-      border-bottom: 1px dashed #efefef
+      background: white
+      border: 10px solid #83ba81
       margin-bottom: 0
       padding: .5em 0
       overflow: hidden
       +single-transition(background-color)
 
-      &:last-child
-        border-bottom: 0
-
       .time,
       .summary
         +experimental(transform-origin, 50% 50%)
 
-      .summary
+      div.time
+        text-align: right
+
+      div.summary
         position: relative
+        text-align: left
 
         p
           margin-bottom: 0
@@ -345,9 +347,6 @@
             right: 1em
             top: 50%
             margin-top: -1.5em
-
-      &:hover
-        background-color: lighten($main-bg, 10%)
 
 //
 // FAQ Section
