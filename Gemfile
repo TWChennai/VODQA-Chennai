@@ -11,3 +11,5 @@ gem 'terminal-notifier-guard', '~> 1.5.3'
 
 gem 'listen', '~> 1.3.1', require: false
 gem 'adsf', '~> 1.1.1', require: false
+
+gem "webrick", "~> 1.7"

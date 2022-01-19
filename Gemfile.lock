@@ -52,6 +52,7 @@ GEM
     thread_safe (0.3.6)
     tzinfo (1.2.6)
       thread_safe (~> 0.1)
+    webrick (1.7.0)
 
 PLATFORMS
   ruby
@@ -66,6 +67,7 @@ DEPENDENCIES
   nanoc (~> 3.6.5)
   sass (~> 3.2.12)
   terminal-notifier-guard (~> 1.5.3)
+  webrick (~> 1.7)
 
 BUNDLED WITH
-   2.1.4
+   2.2.3
