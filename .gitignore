@@ -33,3 +33,4 @@ Icon
 .bundle
 .rvmrc
 .idea/
+vendor/cache
