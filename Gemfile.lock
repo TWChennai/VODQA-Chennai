@@ -50,7 +50,7 @@ GEM
     terminal-notifier-guard (1.5.3)
     thor (1.0.1)
     thread_safe (0.3.6)
-    tzinfo (1.2.6)
+    tzinfo (1.2.10)
       thread_safe (~> 0.1)
     webrick (1.7.0)
 
